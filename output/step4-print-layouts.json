@@ -1,0 +1,1474 @@
+[
+  {
+    "name": "short",
+    "scale": "days",
+    "parts": [
+      {
+        "start": "2026-11-01",
+        "end": "2026-11-07",
+        "vertical": 1,
+        "ids": [
+          "c5f86945-0a56-43e8-b8e2-cd19c7fdceb7",
+          "c68890e7-e49b-4c06-96c5-315895db2e18",
+          "723e183f-a300-46f6-9769-15d9233e5161",
+          "cd74ce42-b1ab-459d-a66d-8c1f6804c4ff",
+          "6506baea-b1a6-45cb-96b4-1b084784f494",
+          "fbe80dd7-6797-4f30-8020-a2cc9209dc73"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 1 из 1",
+        "bodyBottom": 736.984375,
+        "footerTop": 1310.84375
+      }
+    ],
+    "sourceRows": 6,
+    "rows": [
+      {
+        "id": "c5f86945-0a56-43e8-b8e2-cd19c7fdceb7",
+        "name": "Сосны — корпус А",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "c68890e7-e49b-4c06-96c5-315895db2e18",
+        "name": "Подготовка и фундамент",
+        "archived": false,
+        "parentIds": [
+          "c5f86945-0a56-43e8-b8e2-cd19c7fdceb7"
+        ]
+      },
+      {
+        "id": "723e183f-a300-46f6-9769-15d9233e5161",
+        "name": "Работа за сроками родителя",
+        "archived": false,
+        "parentIds": [
+          "c5f86945-0a56-43e8-b8e2-cd19c7fdceb7",
+          "c68890e7-e49b-4c06-96c5-315895db2e18"
+        ]
+      },
+      {
+        "id": "cd74ce42-b1ab-459d-a66d-8c1f6804c4ff",
+        "name": "Берёзы — корпус Б",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "6506baea-b1a6-45cb-96b4-1b084784f494",
+        "name": "Сети",
+        "archived": false,
+        "parentIds": [
+          "cd74ce42-b1ab-459d-a66d-8c1f6804c4ff"
+        ]
+      },
+      {
+        "id": "fbe80dd7-6797-4f30-8020-a2cc9209dc73",
+        "name": "Наружные сети",
+        "archived": false,
+        "parentIds": [
+          "cd74ce42-b1ab-459d-a66d-8c1f6804c4ff",
+          "6506baea-b1a6-45cb-96b4-1b084784f494"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "long-days",
+    "scale": "days",
+    "parts": [
+      {
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "vertical": 1,
+        "ids": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "9c137819-b6df-47a7-9abf-994cfd88bafe",
+          "4ff85d25-68fc-4ef0-b0cb-8b114d874f8c",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038",
+          "d77e6545-f2dc-4777-a953-26e46f4dc7b6",
+          "b9a1fa41-5efe-41ae-a9dd-b92b57a632be",
+          "51cfee74-c670-4626-93e4-425efb4d3a15",
+          "9b3e71bd-80c3-4e55-a7d5-0a068b4c177d",
+          "8639b1af-015e-4519-baa4-c9b8e2edb306",
+          "f07b6073-c4f0-472b-920c-a7c51cef6868",
+          "0faff300-f6d0-46ad-90ff-01a626877e72",
+          "5c2b8ff3-9ee1-412d-87e6-b384c4e9c1ec",
+          "730c4ff2-87cc-4229-a239-4fba2c2074ce",
+          "603e2e3d-709c-4412-9589-70cdf4a8568c",
+          "a4b0bd4c-02aa-45f8-a23f-b81fc06bca70"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 1 из 9",
+        "bodyBottom": 1409.734375,
+        "footerTop": 1413.03125
+      },
+      {
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "vertical": 2,
+        "ids": [
+          "0cda74e9-a6f8-470b-9736-c0bb965dbc78",
+          "cb112b76-1a8e-422c-8fb7-bc9fece8cd85",
+          "9c96be40-49db-4668-b031-9078576e6694",
+          "47cd5ef1-2108-46c0-89f4-5e4d02409e1b",
+          "ba6c6b72-8bb5-4965-a1c2-897403cfe74a",
+          "e4c1ec62-4c7b-4c61-bedb-1903b38f2391",
+          "5517ae55-0954-4022-a740-f606328e135d",
+          "bf3500f8-1a27-43ad-936f-7b60615db80b",
+          "3b77d300-c47c-4699-ae30-beef7cf24512",
+          "d9e1e5fd-5b8a-4b67-bf55-d2650b034ba7",
+          "0f81e5a5-5217-42a3-ab03-88d9d03a1fc5",
+          "761feb7a-4a81-4818-b3ea-41de8ef1b3b8",
+          "9a575777-607d-4fcf-8376-00c4719187bb"
+        ],
+        "repeated": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 2 из 9",
+        "bodyBottom": 2427.875,
+        "footerTop": 2476.171875
+      },
+      {
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "vertical": 3,
+        "ids": [
+          "1d486729-12ec-4efe-9a32-e39bc49b8b67",
+          "7506d5da-98d8-4f7c-93f0-86135150d78f",
+          "7dced33c-3089-420d-b956-236078d746cc"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 3 из 9",
+        "bodyBottom": 2830.265625,
+        "footerTop": 3539.3125
+      },
+      {
+        "start": "2026-12-02",
+        "end": "2027-01-01",
+        "vertical": 1,
+        "ids": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "9c137819-b6df-47a7-9abf-994cfd88bafe",
+          "4ff85d25-68fc-4ef0-b0cb-8b114d874f8c",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038",
+          "d77e6545-f2dc-4777-a953-26e46f4dc7b6",
+          "b9a1fa41-5efe-41ae-a9dd-b92b57a632be",
+          "51cfee74-c670-4626-93e4-425efb4d3a15",
+          "9b3e71bd-80c3-4e55-a7d5-0a068b4c177d",
+          "8639b1af-015e-4519-baa4-c9b8e2edb306",
+          "f07b6073-c4f0-472b-920c-a7c51cef6868",
+          "0faff300-f6d0-46ad-90ff-01a626877e72",
+          "5c2b8ff3-9ee1-412d-87e6-b384c4e9c1ec",
+          "730c4ff2-87cc-4229-a239-4fba2c2074ce",
+          "603e2e3d-709c-4412-9589-70cdf4a8568c",
+          "a4b0bd4c-02aa-45f8-a23f-b81fc06bca70"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 4 из 9",
+        "bodyBottom": 4599.15625,
+        "footerTop": 4602.453125
+      },
+      {
+        "start": "2026-12-02",
+        "end": "2027-01-01",
+        "vertical": 2,
+        "ids": [
+          "0cda74e9-a6f8-470b-9736-c0bb965dbc78",
+          "cb112b76-1a8e-422c-8fb7-bc9fece8cd85",
+          "9c96be40-49db-4668-b031-9078576e6694",
+          "47cd5ef1-2108-46c0-89f4-5e4d02409e1b",
+          "ba6c6b72-8bb5-4965-a1c2-897403cfe74a",
+          "e4c1ec62-4c7b-4c61-bedb-1903b38f2391",
+          "5517ae55-0954-4022-a740-f606328e135d",
+          "bf3500f8-1a27-43ad-936f-7b60615db80b",
+          "3b77d300-c47c-4699-ae30-beef7cf24512",
+          "d9e1e5fd-5b8a-4b67-bf55-d2650b034ba7",
+          "0f81e5a5-5217-42a3-ab03-88d9d03a1fc5",
+          "761feb7a-4a81-4818-b3ea-41de8ef1b3b8",
+          "9a575777-607d-4fcf-8376-00c4719187bb"
+        ],
+        "repeated": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 5 из 9",
+        "bodyBottom": 5617.296875,
+        "footerTop": 5665.59375
+      },
+      {
+        "start": "2026-12-02",
+        "end": "2027-01-01",
+        "vertical": 3,
+        "ids": [
+          "1d486729-12ec-4efe-9a32-e39bc49b8b67",
+          "7506d5da-98d8-4f7c-93f0-86135150d78f",
+          "7dced33c-3089-420d-b956-236078d746cc"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 6 из 9",
+        "bodyBottom": 6019.6875,
+        "footerTop": 6728.734375
+      },
+      {
+        "start": "2027-01-02",
+        "end": "2027-01-15",
+        "vertical": 1,
+        "ids": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "9c137819-b6df-47a7-9abf-994cfd88bafe",
+          "4ff85d25-68fc-4ef0-b0cb-8b114d874f8c",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038",
+          "d77e6545-f2dc-4777-a953-26e46f4dc7b6",
+          "b9a1fa41-5efe-41ae-a9dd-b92b57a632be",
+          "51cfee74-c670-4626-93e4-425efb4d3a15",
+          "9b3e71bd-80c3-4e55-a7d5-0a068b4c177d",
+          "8639b1af-015e-4519-baa4-c9b8e2edb306",
+          "f07b6073-c4f0-472b-920c-a7c51cef6868",
+          "0faff300-f6d0-46ad-90ff-01a626877e72",
+          "5c2b8ff3-9ee1-412d-87e6-b384c4e9c1ec",
+          "730c4ff2-87cc-4229-a239-4fba2c2074ce",
+          "603e2e3d-709c-4412-9589-70cdf4a8568c",
+          "a4b0bd4c-02aa-45f8-a23f-b81fc06bca70"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 7 из 9",
+        "bodyBottom": 7788.578125,
+        "footerTop": 7791.875
+      },
+      {
+        "start": "2027-01-02",
+        "end": "2027-01-15",
+        "vertical": 2,
+        "ids": [
+          "0cda74e9-a6f8-470b-9736-c0bb965dbc78",
+          "cb112b76-1a8e-422c-8fb7-bc9fece8cd85",
+          "9c96be40-49db-4668-b031-9078576e6694",
+          "47cd5ef1-2108-46c0-89f4-5e4d02409e1b",
+          "ba6c6b72-8bb5-4965-a1c2-897403cfe74a",
+          "e4c1ec62-4c7b-4c61-bedb-1903b38f2391",
+          "5517ae55-0954-4022-a740-f606328e135d",
+          "bf3500f8-1a27-43ad-936f-7b60615db80b",
+          "3b77d300-c47c-4699-ae30-beef7cf24512",
+          "d9e1e5fd-5b8a-4b67-bf55-d2650b034ba7",
+          "0f81e5a5-5217-42a3-ab03-88d9d03a1fc5",
+          "761feb7a-4a81-4818-b3ea-41de8ef1b3b8",
+          "9a575777-607d-4fcf-8376-00c4719187bb"
+        ],
+        "repeated": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 8 из 9",
+        "bodyBottom": 8806.71875,
+        "footerTop": 8855.015625
+      },
+      {
+        "start": "2027-01-02",
+        "end": "2027-01-15",
+        "vertical": 3,
+        "ids": [
+          "1d486729-12ec-4efe-9a32-e39bc49b8b67",
+          "7506d5da-98d8-4f7c-93f0-86135150d78f",
+          "7dced33c-3089-420d-b956-236078d746cc"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 9 из 9",
+        "bodyBottom": 9209.109375,
+        "footerTop": 9918.15625
+      }
+    ],
+    "sourceRows": 31,
+    "rows": [
+      {
+        "id": "6e920711-6a83-49a1-af04-5f26b1dafebb",
+        "name": "Сосны — корпус А",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "9c137819-b6df-47a7-9abf-994cfd88bafe",
+        "name": "Архивный этап",
+        "archived": true,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb"
+        ]
+      },
+      {
+        "id": "4ff85d25-68fc-4ef0-b0cb-8b114d874f8c",
+        "name": "Архивная работа",
+        "archived": true,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "9c137819-b6df-47a7-9abf-994cfd88bafe"
+        ]
+      },
+      {
+        "id": "aa51714f-9662-4c5a-955e-eb376cfd2038",
+        "name": "Подготовка и фундамент",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb"
+        ]
+      },
+      {
+        "id": "d77e6545-f2dc-4777-a953-26e46f4dc7b6",
+        "name": "Работа за сроками родителя",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "b9a1fa41-5efe-41ae-a9dd-b92b57a632be",
+        "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "51cfee74-c670-4626-93e4-425efb4d3a15",
+        "name": "Работа 003",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "9b3e71bd-80c3-4e55-a7d5-0a068b4c177d",
+        "name": "Работа 004",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "8639b1af-015e-4519-baa4-c9b8e2edb306",
+        "name": "Работа 005",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "f07b6073-c4f0-472b-920c-a7c51cef6868",
+        "name": "Работа 006",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "0faff300-f6d0-46ad-90ff-01a626877e72",
+        "name": "Работа 007",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "5c2b8ff3-9ee1-412d-87e6-b384c4e9c1ec",
+        "name": "Работа 008",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "730c4ff2-87cc-4229-a239-4fba2c2074ce",
+        "name": "Работа 009",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "603e2e3d-709c-4412-9589-70cdf4a8568c",
+        "name": "Работа 010",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "a4b0bd4c-02aa-45f8-a23f-b81fc06bca70",
+        "name": "Работа 011",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "0cda74e9-a6f8-470b-9736-c0bb965dbc78",
+        "name": "Работа 012",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "cb112b76-1a8e-422c-8fb7-bc9fece8cd85",
+        "name": "Работа 013",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "9c96be40-49db-4668-b031-9078576e6694",
+        "name": "Работа 014",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "47cd5ef1-2108-46c0-89f4-5e4d02409e1b",
+        "name": "Работа 015",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "ba6c6b72-8bb5-4965-a1c2-897403cfe74a",
+        "name": "Работа 016",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "e4c1ec62-4c7b-4c61-bedb-1903b38f2391",
+        "name": "Работа 017",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "5517ae55-0954-4022-a740-f606328e135d",
+        "name": "Работа 018",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "bf3500f8-1a27-43ad-936f-7b60615db80b",
+        "name": "Работа 019",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "3b77d300-c47c-4699-ae30-beef7cf24512",
+        "name": "Работа 020",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "d9e1e5fd-5b8a-4b67-bf55-d2650b034ba7",
+        "name": "Работа 021",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "0f81e5a5-5217-42a3-ab03-88d9d03a1fc5",
+        "name": "Работа 022",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "761feb7a-4a81-4818-b3ea-41de8ef1b3b8",
+        "name": "Работа 023",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "9a575777-607d-4fcf-8376-00c4719187bb",
+        "name": "Работа 024",
+        "archived": false,
+        "parentIds": [
+          "6e920711-6a83-49a1-af04-5f26b1dafebb",
+          "aa51714f-9662-4c5a-955e-eb376cfd2038"
+        ]
+      },
+      {
+        "id": "1d486729-12ec-4efe-9a32-e39bc49b8b67",
+        "name": "Берёзы — корпус Б",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "7506d5da-98d8-4f7c-93f0-86135150d78f",
+        "name": "Сети",
+        "archived": false,
+        "parentIds": [
+          "1d486729-12ec-4efe-9a32-e39bc49b8b67"
+        ]
+      },
+      {
+        "id": "7dced33c-3089-420d-b956-236078d746cc",
+        "name": "Наружные сети",
+        "archived": false,
+        "parentIds": [
+          "1d486729-12ec-4efe-9a32-e39bc49b8b67",
+          "7506d5da-98d8-4f7c-93f0-86135150d78f"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "long-weeks",
+    "scale": "weeks",
+    "parts": [
+      {
+        "start": "2026-11-04",
+        "end": "2027-01-31",
+        "vertical": 1,
+        "ids": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "44dc4c07-7b93-4cf2-b602-4fb95e54f51e",
+          "ff242955-b3d6-4aab-9065-ba4d55458895",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1",
+          "1605f8ac-cd72-4f67-94e8-c0d2235a10df",
+          "616a52c7-1cf8-4ba4-8ef9-7a566133366c",
+          "7cf923be-a59b-4394-88d4-db55ff1c40b2",
+          "b174d8fc-9350-4ef8-895f-7a83db651824",
+          "8dead2b6-d44a-4e40-95c7-bc22549e4ab1",
+          "70dac051-5dc2-4578-815a-294cfb9134f5",
+          "258802d5-98dc-4607-a51f-892d238da53f",
+          "790079ed-adb6-4281-ad30-471e7b7faba1",
+          "a5fcb6df-b6f8-467b-ba43-96e57564db5a",
+          "bb33b4ca-8779-4eb0-9957-c5aa97b9e8b2",
+          "4a1a70f9-30d3-4f2f-ab12-e593720aee4b"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 1 из 6",
+        "bodyBottom": 1409.734375,
+        "footerTop": 1413.03125
+      },
+      {
+        "start": "2026-11-04",
+        "end": "2027-01-31",
+        "vertical": 2,
+        "ids": [
+          "628eb6ce-6508-473b-8752-4123d41174be",
+          "fa61e995-14c0-4502-a1e7-4743bd4fa948",
+          "fe0ad8bf-fd1a-44f5-b348-c50403957186",
+          "76fcd317-655c-42ea-acdf-4524ae1034c3",
+          "4eb98e85-3d98-4833-8745-23cdff68741b",
+          "b5f4e29a-1f55-4152-8b73-ac1a7153d4e2",
+          "2427c9f2-728f-4d26-85fa-64e9a5065dd9",
+          "41f9ba59-0849-4e44-aeb8-7255e607df2b",
+          "92cce5a9-9250-4e14-a82d-a0b8cb9467bf",
+          "7fb731dc-01f3-4621-8110-aa13ad52d451",
+          "9883e271-4948-4ff7-9c35-8d29b1b55bda",
+          "2825b5b1-2046-4c2d-a378-cfa510eef49a",
+          "fb8235e5-7dae-4685-8a57-f08adddaddad"
+        ],
+        "repeated": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 2 из 6",
+        "bodyBottom": 2427.875,
+        "footerTop": 2476.171875
+      },
+      {
+        "start": "2026-11-04",
+        "end": "2027-01-31",
+        "vertical": 3,
+        "ids": [
+          "c7e85df1-72ce-4028-a212-733b0d8ec7db",
+          "4b72cd57-1e5d-43a5-98ae-ea2713cbe342",
+          "30eafcd0-4cdf-459c-addf-a15acc3e0938"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 3 из 6",
+        "bodyBottom": 2830.265625,
+        "footerTop": 3539.3125
+      },
+      {
+        "start": "2027-02-01",
+        "end": "2027-04-26",
+        "vertical": 1,
+        "ids": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "44dc4c07-7b93-4cf2-b602-4fb95e54f51e",
+          "ff242955-b3d6-4aab-9065-ba4d55458895",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1",
+          "1605f8ac-cd72-4f67-94e8-c0d2235a10df",
+          "616a52c7-1cf8-4ba4-8ef9-7a566133366c",
+          "7cf923be-a59b-4394-88d4-db55ff1c40b2",
+          "b174d8fc-9350-4ef8-895f-7a83db651824",
+          "8dead2b6-d44a-4e40-95c7-bc22549e4ab1",
+          "70dac051-5dc2-4578-815a-294cfb9134f5",
+          "258802d5-98dc-4607-a51f-892d238da53f",
+          "790079ed-adb6-4281-ad30-471e7b7faba1",
+          "a5fcb6df-b6f8-467b-ba43-96e57564db5a",
+          "bb33b4ca-8779-4eb0-9957-c5aa97b9e8b2"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 4 из 6",
+        "bodyBottom": 4562.859375,
+        "footerTop": 4602.453125
+      },
+      {
+        "start": "2027-02-01",
+        "end": "2027-04-26",
+        "vertical": 2,
+        "ids": [
+          "4a1a70f9-30d3-4f2f-ab12-e593720aee4b",
+          "628eb6ce-6508-473b-8752-4123d41174be",
+          "fa61e995-14c0-4502-a1e7-4743bd4fa948",
+          "fe0ad8bf-fd1a-44f5-b348-c50403957186",
+          "76fcd317-655c-42ea-acdf-4524ae1034c3",
+          "4eb98e85-3d98-4833-8745-23cdff68741b",
+          "b5f4e29a-1f55-4152-8b73-ac1a7153d4e2",
+          "2427c9f2-728f-4d26-85fa-64e9a5065dd9",
+          "41f9ba59-0849-4e44-aeb8-7255e607df2b",
+          "92cce5a9-9250-4e14-a82d-a0b8cb9467bf",
+          "7fb731dc-01f3-4621-8110-aa13ad52d451",
+          "9883e271-4948-4ff7-9c35-8d29b1b55bda",
+          "2825b5b1-2046-4c2d-a378-cfa510eef49a"
+        ],
+        "repeated": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 5 из 6",
+        "bodyBottom": 5636.0625,
+        "footerTop": 5665.59375
+      },
+      {
+        "start": "2027-02-01",
+        "end": "2027-04-26",
+        "vertical": 3,
+        "ids": [
+          "fb8235e5-7dae-4685-8a57-f08adddaddad",
+          "c7e85df1-72ce-4028-a212-733b0d8ec7db",
+          "4b72cd57-1e5d-43a5-98ae-ea2713cbe342",
+          "30eafcd0-4cdf-459c-addf-a15acc3e0938"
+        ],
+        "repeated": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 6 из 6",
+        "bodyBottom": 6173.640625,
+        "footerTop": 6728.734375
+      }
+    ],
+    "sourceRows": 31,
+    "rows": [
+      {
+        "id": "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+        "name": "Сосны — корпус А",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "44dc4c07-7b93-4cf2-b602-4fb95e54f51e",
+        "name": "Архивный этап",
+        "archived": true,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be"
+        ]
+      },
+      {
+        "id": "ff242955-b3d6-4aab-9065-ba4d55458895",
+        "name": "Архивная работа",
+        "archived": true,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "44dc4c07-7b93-4cf2-b602-4fb95e54f51e"
+        ]
+      },
+      {
+        "id": "f24f7cc0-9891-4616-a5ef-f5d070913eb1",
+        "name": "Подготовка и фундамент",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be"
+        ]
+      },
+      {
+        "id": "1605f8ac-cd72-4f67-94e8-c0d2235a10df",
+        "name": "Работа за сроками родителя",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "616a52c7-1cf8-4ba4-8ef9-7a566133366c",
+        "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "7cf923be-a59b-4394-88d4-db55ff1c40b2",
+        "name": "Работа 003",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "b174d8fc-9350-4ef8-895f-7a83db651824",
+        "name": "Работа 004",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "8dead2b6-d44a-4e40-95c7-bc22549e4ab1",
+        "name": "Работа 005",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "70dac051-5dc2-4578-815a-294cfb9134f5",
+        "name": "Работа 006",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "258802d5-98dc-4607-a51f-892d238da53f",
+        "name": "Работа 007",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "790079ed-adb6-4281-ad30-471e7b7faba1",
+        "name": "Работа 008",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "a5fcb6df-b6f8-467b-ba43-96e57564db5a",
+        "name": "Работа 009",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "bb33b4ca-8779-4eb0-9957-c5aa97b9e8b2",
+        "name": "Работа 010",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "4a1a70f9-30d3-4f2f-ab12-e593720aee4b",
+        "name": "Работа 011",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "628eb6ce-6508-473b-8752-4123d41174be",
+        "name": "Работа 012",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "fa61e995-14c0-4502-a1e7-4743bd4fa948",
+        "name": "Работа 013",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "fe0ad8bf-fd1a-44f5-b348-c50403957186",
+        "name": "Работа 014",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "76fcd317-655c-42ea-acdf-4524ae1034c3",
+        "name": "Работа 015",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "4eb98e85-3d98-4833-8745-23cdff68741b",
+        "name": "Работа 016",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "b5f4e29a-1f55-4152-8b73-ac1a7153d4e2",
+        "name": "Работа 017",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "2427c9f2-728f-4d26-85fa-64e9a5065dd9",
+        "name": "Работа 018",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "41f9ba59-0849-4e44-aeb8-7255e607df2b",
+        "name": "Работа 019",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "92cce5a9-9250-4e14-a82d-a0b8cb9467bf",
+        "name": "Работа 020",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "7fb731dc-01f3-4621-8110-aa13ad52d451",
+        "name": "Работа 021",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "9883e271-4948-4ff7-9c35-8d29b1b55bda",
+        "name": "Работа 022",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "2825b5b1-2046-4c2d-a378-cfa510eef49a",
+        "name": "Работа 023",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "fb8235e5-7dae-4685-8a57-f08adddaddad",
+        "name": "Работа 024",
+        "archived": false,
+        "parentIds": [
+          "6733a998-0bfe-4dcd-a450-28ebb55ac9be",
+          "f24f7cc0-9891-4616-a5ef-f5d070913eb1"
+        ]
+      },
+      {
+        "id": "c7e85df1-72ce-4028-a212-733b0d8ec7db",
+        "name": "Берёзы — корпус Б",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "4b72cd57-1e5d-43a5-98ae-ea2713cbe342",
+        "name": "Сети",
+        "archived": false,
+        "parentIds": [
+          "c7e85df1-72ce-4028-a212-733b0d8ec7db"
+        ]
+      },
+      {
+        "id": "30eafcd0-4cdf-459c-addf-a15acc3e0938",
+        "name": "Наружные сети",
+        "archived": false,
+        "parentIds": [
+          "c7e85df1-72ce-4028-a212-733b0d8ec7db",
+          "4b72cd57-1e5d-43a5-98ae-ea2713cbe342"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "long-months",
+    "scale": "months",
+    "parts": [
+      {
+        "start": "2026-11-30",
+        "end": "2027-10-31",
+        "vertical": 1,
+        "ids": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "8d710bf8-5d91-4899-ae87-50dc43ae8345",
+          "711e9e53-803a-4dfa-9ca4-71cbfd7b2c41",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d",
+          "9d74862b-e551-4e6d-bd63-90c9103b91b6",
+          "1fd4844f-dff5-486d-a3a1-cfdc0928e655",
+          "5608d87b-d74d-4fa0-a018-3fd4a9e2d352",
+          "b347d739-a049-43d8-8472-a0715e5baf73",
+          "9f304031-511e-473b-bd3c-2f9a39a1fba9",
+          "fe923d60-6960-40a3-a206-d65419c4b418",
+          "12924271-5961-42a2-bd9d-cb65c8a469a3",
+          "2d9a836d-0301-4398-a7d5-8fe271c1a8dd",
+          "d3461fbe-92d9-42fd-a035-9ed878b782e5",
+          "ff14f7c7-f2b1-4c0e-becb-cf23d34e32e9"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 1 из 6",
+        "bodyBottom": 1373.4375,
+        "footerTop": 1413.03125
+      },
+      {
+        "start": "2026-11-30",
+        "end": "2027-10-31",
+        "vertical": 2,
+        "ids": [
+          "723d1ba3-d035-4ec8-8281-32941eec9b71",
+          "833c781e-3f18-4cb9-bbed-1380308da950",
+          "e0d08a21-85bc-4260-9739-da481dba085c",
+          "cd737359-92f3-45ef-873a-f6362dbdef14",
+          "cbbf69a3-ee0a-4b0d-b0b1-ab7cc8bde231",
+          "fe2bbd41-bf54-4776-9273-aae412f3bcdd",
+          "ff9ca126-3a64-4594-9cc6-dae9a0405058",
+          "455020a8-0677-4e96-a15f-ae5e590564bd",
+          "c36aa7e3-a459-4437-b831-6d198ad5cd8a",
+          "9c3214e7-c290-4946-87de-d26375a5f137",
+          "1e29c0c8-9261-4029-a99c-e2ea9f2ecafe",
+          "34361f0d-336b-4b3d-80fe-8b719c1ef87c",
+          "c8ee5acb-6c51-4041-b783-f96113fb54d0"
+        ],
+        "repeated": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 2 из 6",
+        "bodyBottom": 2446.640625,
+        "footerTop": 2476.171875
+      },
+      {
+        "start": "2026-11-30",
+        "end": "2027-10-31",
+        "vertical": 3,
+        "ids": [
+          "00cd5e5a-dcb3-423a-81d7-01435276c0dc",
+          "9cb3f0a3-f3d5-4109-8c60-a1f483919242",
+          "0ce98134-d929-4961-8e3b-80a112eccb4d",
+          "75201e4c-6cb7-4ef0-b796-8c81c0015527"
+        ],
+        "repeated": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 3 из 6",
+        "bodyBottom": 2984.21875,
+        "footerTop": 3539.3125
+      },
+      {
+        "start": "2027-11-01",
+        "end": "2028-01-10",
+        "vertical": 1,
+        "ids": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "8d710bf8-5d91-4899-ae87-50dc43ae8345",
+          "711e9e53-803a-4dfa-9ca4-71cbfd7b2c41",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d",
+          "9d74862b-e551-4e6d-bd63-90c9103b91b6",
+          "1fd4844f-dff5-486d-a3a1-cfdc0928e655",
+          "5608d87b-d74d-4fa0-a018-3fd4a9e2d352",
+          "b347d739-a049-43d8-8472-a0715e5baf73",
+          "9f304031-511e-473b-bd3c-2f9a39a1fba9",
+          "fe923d60-6960-40a3-a206-d65419c4b418",
+          "12924271-5961-42a2-bd9d-cb65c8a469a3",
+          "2d9a836d-0301-4398-a7d5-8fe271c1a8dd",
+          "d3461fbe-92d9-42fd-a035-9ed878b782e5",
+          "ff14f7c7-f2b1-4c0e-becb-cf23d34e32e9",
+          "723d1ba3-d035-4ec8-8281-32941eec9b71"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 4 из 6",
+        "bodyBottom": 4599.15625,
+        "footerTop": 4602.453125
+      },
+      {
+        "start": "2027-11-01",
+        "end": "2028-01-10",
+        "vertical": 2,
+        "ids": [
+          "833c781e-3f18-4cb9-bbed-1380308da950",
+          "e0d08a21-85bc-4260-9739-da481dba085c",
+          "cd737359-92f3-45ef-873a-f6362dbdef14",
+          "cbbf69a3-ee0a-4b0d-b0b1-ab7cc8bde231",
+          "fe2bbd41-bf54-4776-9273-aae412f3bcdd",
+          "ff9ca126-3a64-4594-9cc6-dae9a0405058",
+          "455020a8-0677-4e96-a15f-ae5e590564bd",
+          "c36aa7e3-a459-4437-b831-6d198ad5cd8a",
+          "9c3214e7-c290-4946-87de-d26375a5f137",
+          "1e29c0c8-9261-4029-a99c-e2ea9f2ecafe",
+          "34361f0d-336b-4b3d-80fe-8b719c1ef87c",
+          "c8ee5acb-6c51-4041-b783-f96113fb54d0",
+          "00cd5e5a-dcb3-423a-81d7-01435276c0dc"
+        ],
+        "repeated": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 5 из 6",
+        "bodyBottom": 5617.296875,
+        "footerTop": 5665.59375
+      },
+      {
+        "start": "2027-11-01",
+        "end": "2028-01-10",
+        "vertical": 3,
+        "ids": [
+          "9cb3f0a3-f3d5-4109-8c60-a1f483919242",
+          "0ce98134-d929-4961-8e3b-80a112eccb4d",
+          "75201e4c-6cb7-4ef0-b796-8c81c0015527"
+        ],
+        "repeated": [],
+        "width": 1511.796875,
+        "height": 1043.140625,
+        "overflow": 0,
+        "labels": true,
+        "footer": "Страница 6 из 6",
+        "bodyBottom": 6019.6875,
+        "footerTop": 6728.734375
+      }
+    ],
+    "sourceRows": 31,
+    "rows": [
+      {
+        "id": "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+        "name": "Сосны — корпус А",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "8d710bf8-5d91-4899-ae87-50dc43ae8345",
+        "name": "Архивный этап",
+        "archived": true,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8"
+        ]
+      },
+      {
+        "id": "711e9e53-803a-4dfa-9ca4-71cbfd7b2c41",
+        "name": "Архивная работа",
+        "archived": true,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "8d710bf8-5d91-4899-ae87-50dc43ae8345"
+        ]
+      },
+      {
+        "id": "b72537e9-d3c9-4d18-8be2-361e3dd39c4d",
+        "name": "Подготовка и фундамент",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8"
+        ]
+      },
+      {
+        "id": "9d74862b-e551-4e6d-bd63-90c9103b91b6",
+        "name": "Работа за сроками родителя",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "1fd4844f-dff5-486d-a3a1-cfdc0928e655",
+        "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "5608d87b-d74d-4fa0-a018-3fd4a9e2d352",
+        "name": "Работа 003",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "b347d739-a049-43d8-8472-a0715e5baf73",
+        "name": "Работа 004",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "9f304031-511e-473b-bd3c-2f9a39a1fba9",
+        "name": "Работа 005",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "fe923d60-6960-40a3-a206-d65419c4b418",
+        "name": "Работа 006",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "12924271-5961-42a2-bd9d-cb65c8a469a3",
+        "name": "Работа 007",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "2d9a836d-0301-4398-a7d5-8fe271c1a8dd",
+        "name": "Работа 008",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "d3461fbe-92d9-42fd-a035-9ed878b782e5",
+        "name": "Работа 009",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "ff14f7c7-f2b1-4c0e-becb-cf23d34e32e9",
+        "name": "Работа 010",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "723d1ba3-d035-4ec8-8281-32941eec9b71",
+        "name": "Работа 011",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "833c781e-3f18-4cb9-bbed-1380308da950",
+        "name": "Работа 012",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "e0d08a21-85bc-4260-9739-da481dba085c",
+        "name": "Работа 013",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "cd737359-92f3-45ef-873a-f6362dbdef14",
+        "name": "Работа 014",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "cbbf69a3-ee0a-4b0d-b0b1-ab7cc8bde231",
+        "name": "Работа 015",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "fe2bbd41-bf54-4776-9273-aae412f3bcdd",
+        "name": "Работа 016",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "ff9ca126-3a64-4594-9cc6-dae9a0405058",
+        "name": "Работа 017",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "455020a8-0677-4e96-a15f-ae5e590564bd",
+        "name": "Работа 018",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "c36aa7e3-a459-4437-b831-6d198ad5cd8a",
+        "name": "Работа 019",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "9c3214e7-c290-4946-87de-d26375a5f137",
+        "name": "Работа 020",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "1e29c0c8-9261-4029-a99c-e2ea9f2ecafe",
+        "name": "Работа 021",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "34361f0d-336b-4b3d-80fe-8b719c1ef87c",
+        "name": "Работа 022",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "c8ee5acb-6c51-4041-b783-f96113fb54d0",
+        "name": "Работа 023",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "00cd5e5a-dcb3-423a-81d7-01435276c0dc",
+        "name": "Работа 024",
+        "archived": false,
+        "parentIds": [
+          "6668d0d0-de3b-452b-9962-377b9c3f75d8",
+          "b72537e9-d3c9-4d18-8be2-361e3dd39c4d"
+        ]
+      },
+      {
+        "id": "9cb3f0a3-f3d5-4109-8c60-a1f483919242",
+        "name": "Берёзы — корпус Б",
+        "archived": false,
+        "parentIds": []
+      },
+      {
+        "id": "0ce98134-d929-4961-8e3b-80a112eccb4d",
+        "name": "Сети",
+        "archived": false,
+        "parentIds": [
+          "9cb3f0a3-f3d5-4109-8c60-a1f483919242"
+        ]
+      },
+      {
+        "id": "75201e4c-6cb7-4ef0-b796-8c81c0015527",
+        "name": "Наружные сети",
+        "archived": false,
+        "parentIds": [
+          "9cb3f0a3-f3d5-4109-8c60-a1f483919242",
+          "0ce98134-d929-4961-8e3b-80a112eccb4d"
+        ]
+      }
+    ]
+  }
+]

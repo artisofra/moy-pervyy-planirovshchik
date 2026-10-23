@@ -29,11 +29,17 @@ const assert=require('node:assert/strict');
       return D.validate(await S.read(await S.openDB()));
     });
     assert.equal(valid,true);
+    await page.getByRole('button',{name:'Гант',exact:true}).click();
+    await page.locator('.gantt-scroll').waitFor();
+    await page.getByRole('button',{name:'Печать / PDF',exact:true}).click();
+    await page.locator('.print-message').filter({hasText:'Предпросмотр готов'}).waitFor();
+    assert.ok(await page.locator('.print-sheet').count());
+    await page.getByRole('button',{name:'Закрыть предпросмотр'}).click();
     for(const path of ['/tz.md','/package.json','/tests/finance-fixture.js','/output/step3-browser-results.json','/.git/config']){
       const response=await context.request.get(new URL(path,base).href);
       assert.equal(response.status(),404,path);
     }
     assert.deepEqual(errors,[]);
-    console.log('PASS LAN HTTP: старт без randomUUID, 1000 UUID v4, создание через форму, сохранение после перезагрузки, валидация базы, закрытые служебные файлы, нет ошибок JS');
+    console.log('PASS LAN HTTP: старт без randomUUID, 1000 UUID v4, создание через форму, сохранение после перезагрузки, валидация базы, Гант и предпросмотр печати, закрытые служебные файлы, нет ошибок JS');
   }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

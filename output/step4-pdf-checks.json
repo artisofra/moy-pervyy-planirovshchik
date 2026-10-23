@@ -1,0 +1,42 @@
+[
+  {
+    "file": "step4-short.pdf",
+    "pages": 1,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 9.0,
+    "checks": "size, text, all rows and repeated parents, margins, controls absent, grayscale"
+  },
+  {
+    "file": "step4-long-days.pdf",
+    "pages": 9,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 9.0,
+    "checks": "size, text, all rows and repeated parents, margins, controls absent, grayscale"
+  },
+  {
+    "file": "step4-long-weeks.pdf",
+    "pages": 6,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 9.0,
+    "checks": "size, text, all rows and repeated parents, margins, controls absent, grayscale"
+  },
+  {
+    "file": "step4-long-months.pdf",
+    "pages": 6,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 9.0,
+    "checks": "size, text, all rows and repeated parents, margins, controls absent, grayscale"
+  }
+]

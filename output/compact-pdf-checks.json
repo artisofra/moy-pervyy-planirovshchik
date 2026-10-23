@@ -1,0 +1,142 @@
+[
+  {
+    "file": "compact-A3-9.pdf",
+    "pages": 1,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 9.0,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A3-10.pdf",
+    "pages": 1,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 10.0,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A3-11.pdf",
+    "pages": 1,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 10.99,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A3-12.pdf",
+    "pages": 1,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 12.0,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A3-14.pdf",
+    "pages": 1,
+    "format_mm": [
+      420,
+      297
+    ],
+    "min_font_pt": 13.99,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A4-9.pdf",
+    "pages": 1,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 9.0,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A4-10.pdf",
+    "pages": 2,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 10.0,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A4-11.pdf",
+    "pages": 2,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 10.99,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A4-12.pdf",
+    "pages": 2,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 12.0,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-A4-14.pdf",
+    "pages": 2,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 13.99,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-brief-A4-14.pdf",
+    "pages": 1,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 13.99,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-long-weeks-A4-11.pdf",
+    "pages": 16,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 10.99,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-long-months-A4-12.pdf",
+    "pages": 3,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 12.0,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  },
+  {
+    "file": "compact-long-names-A4-14.pdf",
+    "pages": 1,
+    "format_mm": [
+      297,
+      210
+    ],
+    "min_font_pt": 13.99,
+    "checks": "size, text, all rows and repeated context, margins, controls absent, grayscale"
+  }
+]
