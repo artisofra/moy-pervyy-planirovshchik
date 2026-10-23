@@ -21,6 +21,7 @@ export function validateSchema(value,schema,root=schema,path=''){
   if(schema.format==='uuid'&&!/^[a-f0-9]{8}(-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i.test(value))fail('Неверный идентификатор');
   if(schema.format==='date'){if(!/^\d{4}-\d{2}-\d{2}$/.test(value)||value<'0001-01-01'||!Number.isFinite(Date.parse(value+'T12:00:00Z'))||new Date(value+'T12:00:00Z').toISOString().slice(0,10)!==value)fail('Некорректная дата');}
   if(schema.format==='date-time'&&(!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z$/.test(value)||!Number.isFinite(Date.parse(value))))fail('Некорректная метка времени UTC');
+  if(schema.format==='date-time'){const d=value.slice(0,10);if(!Number.isFinite(Date.parse(d+'T12:00:00Z'))||new Date(d+'T12:00:00Z').toISOString().slice(0,10)!==d||Number(value.slice(11,13))>23||Number(value.slice(14,16))>59||Number(value.slice(17,19))>59)fail('Некорректная метка времени UTC');}
  }
  if(schema.type==='integer'&&(!Number.isSafeInteger(value)||value<(schema.minimum??-Infinity)||value>(schema.maximum??Infinity)))fail('Недопустимое целое число');
  if(schema.type==='boolean'&&typeof value!=='boolean')fail('Ожидалось Да/Нет');
