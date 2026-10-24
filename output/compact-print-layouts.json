@@ -10,15 +10,15 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -32,76 +32,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -117,15 +117,15 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -139,76 +139,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -224,15 +224,15 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -246,76 +246,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -331,15 +331,15 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -353,76 +353,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -438,15 +438,15 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -460,76 +460,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -545,15 +545,15 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -567,76 +567,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -652,12 +652,12 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -672,9 +672,9 @@
         "end": "2026-11-14",
         "vertical": 2,
         "ids": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -688,76 +688,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -773,12 +773,12 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -793,9 +793,9 @@
         "end": "2026-11-14",
         "vertical": 2,
         "ids": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -809,76 +809,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -894,12 +894,12 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512",
-          "1808af7b-5023-415f-897d-9c1baca5fd35"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113",
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -914,9 +914,9 @@
         "end": "2026-11-14",
         "vertical": 2,
         "ids": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -930,76 +930,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -1015,11 +1015,11 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "a306510c-51e3-47b7-917b-8f6978cb1ae6",
-          "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
-          "4753e2d2-ba4d-4b92-8229-f6129172b512"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "20b73c34-db7a-4619-addf-ef814f18e57c",
+          "0142cef3-8481-4e87-b32d-819addfc4363",
+          "873fe318-e93c-4849-8cdd-c29c5c1ad113"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1034,14 +1034,14 @@
         "end": "2026-11-14",
         "vertical": 2,
         "ids": [
-          "1808af7b-5023-415f-897d-9c1baca5fd35",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d",
-          "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d"
+          "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
+          "f3707b04-81de-4989-8a45-d24140846c9d"
         ],
         "repeated": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1054,76 +1054,76 @@
     "sourceRows": 9,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "a306510c-51e3-47b7-917b-8f6978cb1ae6",
+        "id": "20b73c34-db7a-4619-addf-ef814f18e57c",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "c3633138-26d1-4f76-a2f5-2c1908a6ea46",
+        "id": "0142cef3-8481-4e87-b32d-819addfc4363",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "4753e2d2-ba4d-4b92-8229-f6129172b512",
+        "id": "873fe318-e93c-4849-8cdd-c29c5c1ad113",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "1808af7b-5023-415f-897d-9c1baca5fd35",
+        "id": "14e00de9-0e06-4823-88cc-d7ff86a8bcee",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       },
       {
-        "id": "77db71dc-ef6d-4f4f-ae96-83ad1cf8e89d",
+        "id": "f3707b04-81de-4989-8a45-d24140846c9d",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ]
       }
     ]
@@ -1139,10 +1139,10 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
-          "7b85305e-8242-498c-a34d-8a223bbdb3df",
-          "6f42d053-1505-417c-8edb-15475557b14d",
-          "afe3aca6-0ca2-4e46-9084-3d395082048d"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
+          "15591107-045e-4ebe-832a-1e035969cddd",
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
+          "f88860f6-aa84-4f2f-aefb-377ac9e7ad33"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1156,31 +1156,31 @@
     "sourceRows": 4,
     "rows": [
       {
-        "id": "925a48c8-90ba-41ef-a28a-10e27bfaaeba",
+        "id": "dbf5e483-815d-4531-a814-f3ea5af1c9f5",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "7b85305e-8242-498c-a34d-8a223bbdb3df",
+        "id": "15591107-045e-4ebe-832a-1e035969cddd",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "925a48c8-90ba-41ef-a28a-10e27bfaaeba"
+          "dbf5e483-815d-4531-a814-f3ea5af1c9f5"
         ]
       },
       {
-        "id": "6f42d053-1505-417c-8edb-15475557b14d",
+        "id": "aa46e4b9-2556-4047-9ff1-55e29f78f76b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "afe3aca6-0ca2-4e46-9084-3d395082048d",
+        "id": "f88860f6-aa84-4f2f-aefb-377ac9e7ad33",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f42d053-1505-417c-8edb-15475557b14d"
+          "aa46e4b9-2556-4047-9ff1-55e29f78f76b"
         ]
       }
     ]
@@ -1196,13 +1196,13 @@
         "end": "2026-12-27",
         "vertical": 1,
         "ids": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd",
-          "bf6b16ef-b3c3-4c67-a4a8-86f9ed29f843",
-          "1d826a91-6c14-4ec7-9f39-9276033a1064",
-          "9581895c-5995-4753-8ca5-57caf035c2a3",
-          "7e682d77-1268-41ff-bdd6-219714c625ce",
-          "5a4f23e7-1069-47f3-91f7-861deaf0e133"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531",
+          "ba9085c0-56d3-4043-805b-29416d71ec28",
+          "3bd0a6ca-b4df-4c73-8794-b81840114404",
+          "41236bb2-0bf1-41f8-b37f-558c657d32f3",
+          "a2c7b473-bae5-438c-9abb-4097dbabf9ae",
+          "ecda3697-9f43-487a-a57f-761ff9627121"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1217,15 +1217,15 @@
         "end": "2026-12-27",
         "vertical": 2,
         "ids": [
-          "ea84a866-bf3b-4a5f-b998-44a225b7d05f",
-          "2681e950-4816-4bbc-a443-bde6b9a04b86",
-          "8b1c2604-1a3c-4320-83cb-5cafcb81c6d0",
-          "f2838cff-1ba7-4c76-b3bc-a3a628f48327",
-          "05a44aa3-f991-48fc-9df8-1410c444284a"
+          "d8467a07-e80d-43f5-828c-7db190d70459",
+          "7b377919-131f-44f5-8679-00d6a5d076ea",
+          "f96da29b-ddcc-49c3-acc7-030e21ae9bc5",
+          "538fae48-c31b-4068-bde7-5508aaee74eb",
+          "f47865fa-b1b2-4e5c-abf6-a666d1688e3b"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1239,15 +1239,15 @@
         "end": "2026-12-27",
         "vertical": 3,
         "ids": [
-          "08734911-7c86-429e-8e54-4d098b60175d",
-          "d85ce58a-6a98-4c04-8eb7-53c114689c0f",
-          "2e5ddbe9-cc82-4aba-bed5-0233dc1f9ebc",
-          "3192f910-a5c0-4bd3-98d0-7d1e8e2aaf4f",
-          "a974c20c-5974-4094-9289-c44275e7b1e2"
+          "d78d207e-a760-4b6b-80dc-d4140450d639",
+          "880cd513-b48d-4133-9873-48e8926f8948",
+          "6c71ed35-f25a-423c-b19f-7afd2626772b",
+          "0ed27675-4015-4cd6-9e24-53218627e5cc",
+          "64d940ca-0d75-4cdc-bd7e-a55d5462c81c"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1261,16 +1261,16 @@
         "end": "2026-12-27",
         "vertical": 4,
         "ids": [
-          "c08f67fa-1d2a-41d0-8009-aac25a6b820d",
-          "2ed20773-fab5-4b07-950d-bb733d639d8f",
-          "3b06f092-53e6-4bb9-a9b7-3425386d8986",
-          "4b301231-2403-4076-b20f-1c56a1c9c350",
-          "e6bf57d0-3c7c-4e13-9e26-d87ea7375ec2",
-          "5a5d1921-699c-4b8d-afb0-9b43b4a6f292"
+          "ff4057fd-640e-4889-ad5f-f9ac25ed129c",
+          "e47697ac-c380-4e6d-9cab-d1e8ee8401a8",
+          "d57ce534-b4a0-4f5b-9201-705db07681bf",
+          "5b81b7a0-6515-49d8-953e-021c1689f67d",
+          "e813fb01-0f79-42d7-8b2a-3cacf6f47763",
+          "ee370751-76e5-489c-baba-176086a6c43f"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1284,13 +1284,13 @@
         "end": "2027-02-21",
         "vertical": 1,
         "ids": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd",
-          "bf6b16ef-b3c3-4c67-a4a8-86f9ed29f843",
-          "1d826a91-6c14-4ec7-9f39-9276033a1064",
-          "9581895c-5995-4753-8ca5-57caf035c2a3",
-          "7e682d77-1268-41ff-bdd6-219714c625ce",
-          "5a4f23e7-1069-47f3-91f7-861deaf0e133"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531",
+          "ba9085c0-56d3-4043-805b-29416d71ec28",
+          "3bd0a6ca-b4df-4c73-8794-b81840114404",
+          "41236bb2-0bf1-41f8-b37f-558c657d32f3",
+          "a2c7b473-bae5-438c-9abb-4097dbabf9ae",
+          "ecda3697-9f43-487a-a57f-761ff9627121"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1305,15 +1305,15 @@
         "end": "2027-02-21",
         "vertical": 2,
         "ids": [
-          "ea84a866-bf3b-4a5f-b998-44a225b7d05f",
-          "2681e950-4816-4bbc-a443-bde6b9a04b86",
-          "8b1c2604-1a3c-4320-83cb-5cafcb81c6d0",
-          "f2838cff-1ba7-4c76-b3bc-a3a628f48327",
-          "05a44aa3-f991-48fc-9df8-1410c444284a"
+          "d8467a07-e80d-43f5-828c-7db190d70459",
+          "7b377919-131f-44f5-8679-00d6a5d076ea",
+          "f96da29b-ddcc-49c3-acc7-030e21ae9bc5",
+          "538fae48-c31b-4068-bde7-5508aaee74eb",
+          "f47865fa-b1b2-4e5c-abf6-a666d1688e3b"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1327,15 +1327,15 @@
         "end": "2027-02-21",
         "vertical": 3,
         "ids": [
-          "08734911-7c86-429e-8e54-4d098b60175d",
-          "d85ce58a-6a98-4c04-8eb7-53c114689c0f",
-          "2e5ddbe9-cc82-4aba-bed5-0233dc1f9ebc",
-          "3192f910-a5c0-4bd3-98d0-7d1e8e2aaf4f",
-          "a974c20c-5974-4094-9289-c44275e7b1e2"
+          "d78d207e-a760-4b6b-80dc-d4140450d639",
+          "880cd513-b48d-4133-9873-48e8926f8948",
+          "6c71ed35-f25a-423c-b19f-7afd2626772b",
+          "0ed27675-4015-4cd6-9e24-53218627e5cc",
+          "64d940ca-0d75-4cdc-bd7e-a55d5462c81c"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1349,16 +1349,16 @@
         "end": "2027-02-21",
         "vertical": 4,
         "ids": [
-          "c08f67fa-1d2a-41d0-8009-aac25a6b820d",
-          "2ed20773-fab5-4b07-950d-bb733d639d8f",
-          "3b06f092-53e6-4bb9-a9b7-3425386d8986",
-          "4b301231-2403-4076-b20f-1c56a1c9c350",
-          "e6bf57d0-3c7c-4e13-9e26-d87ea7375ec2",
-          "5a5d1921-699c-4b8d-afb0-9b43b4a6f292"
+          "ff4057fd-640e-4889-ad5f-f9ac25ed129c",
+          "e47697ac-c380-4e6d-9cab-d1e8ee8401a8",
+          "d57ce534-b4a0-4f5b-9201-705db07681bf",
+          "5b81b7a0-6515-49d8-953e-021c1689f67d",
+          "e813fb01-0f79-42d7-8b2a-3cacf6f47763",
+          "ee370751-76e5-489c-baba-176086a6c43f"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1372,13 +1372,13 @@
         "end": "2027-04-18",
         "vertical": 1,
         "ids": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd",
-          "bf6b16ef-b3c3-4c67-a4a8-86f9ed29f843",
-          "1d826a91-6c14-4ec7-9f39-9276033a1064",
-          "9581895c-5995-4753-8ca5-57caf035c2a3",
-          "7e682d77-1268-41ff-bdd6-219714c625ce",
-          "5a4f23e7-1069-47f3-91f7-861deaf0e133"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531",
+          "ba9085c0-56d3-4043-805b-29416d71ec28",
+          "3bd0a6ca-b4df-4c73-8794-b81840114404",
+          "41236bb2-0bf1-41f8-b37f-558c657d32f3",
+          "a2c7b473-bae5-438c-9abb-4097dbabf9ae",
+          "ecda3697-9f43-487a-a57f-761ff9627121"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1393,15 +1393,15 @@
         "end": "2027-04-18",
         "vertical": 2,
         "ids": [
-          "ea84a866-bf3b-4a5f-b998-44a225b7d05f",
-          "2681e950-4816-4bbc-a443-bde6b9a04b86",
-          "8b1c2604-1a3c-4320-83cb-5cafcb81c6d0",
-          "f2838cff-1ba7-4c76-b3bc-a3a628f48327",
-          "05a44aa3-f991-48fc-9df8-1410c444284a"
+          "d8467a07-e80d-43f5-828c-7db190d70459",
+          "7b377919-131f-44f5-8679-00d6a5d076ea",
+          "f96da29b-ddcc-49c3-acc7-030e21ae9bc5",
+          "538fae48-c31b-4068-bde7-5508aaee74eb",
+          "f47865fa-b1b2-4e5c-abf6-a666d1688e3b"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1415,15 +1415,15 @@
         "end": "2027-04-18",
         "vertical": 3,
         "ids": [
-          "08734911-7c86-429e-8e54-4d098b60175d",
-          "d85ce58a-6a98-4c04-8eb7-53c114689c0f",
-          "2e5ddbe9-cc82-4aba-bed5-0233dc1f9ebc",
-          "3192f910-a5c0-4bd3-98d0-7d1e8e2aaf4f",
-          "a974c20c-5974-4094-9289-c44275e7b1e2"
+          "d78d207e-a760-4b6b-80dc-d4140450d639",
+          "880cd513-b48d-4133-9873-48e8926f8948",
+          "6c71ed35-f25a-423c-b19f-7afd2626772b",
+          "0ed27675-4015-4cd6-9e24-53218627e5cc",
+          "64d940ca-0d75-4cdc-bd7e-a55d5462c81c"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1437,16 +1437,16 @@
         "end": "2027-04-18",
         "vertical": 4,
         "ids": [
-          "c08f67fa-1d2a-41d0-8009-aac25a6b820d",
-          "2ed20773-fab5-4b07-950d-bb733d639d8f",
-          "3b06f092-53e6-4bb9-a9b7-3425386d8986",
-          "4b301231-2403-4076-b20f-1c56a1c9c350",
-          "e6bf57d0-3c7c-4e13-9e26-d87ea7375ec2",
-          "5a5d1921-699c-4b8d-afb0-9b43b4a6f292"
+          "ff4057fd-640e-4889-ad5f-f9ac25ed129c",
+          "e47697ac-c380-4e6d-9cab-d1e8ee8401a8",
+          "d57ce534-b4a0-4f5b-9201-705db07681bf",
+          "5b81b7a0-6515-49d8-953e-021c1689f67d",
+          "e813fb01-0f79-42d7-8b2a-3cacf6f47763",
+          "ee370751-76e5-489c-baba-176086a6c43f"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1460,13 +1460,13 @@
         "end": "2027-04-26",
         "vertical": 1,
         "ids": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd",
-          "bf6b16ef-b3c3-4c67-a4a8-86f9ed29f843",
-          "1d826a91-6c14-4ec7-9f39-9276033a1064",
-          "9581895c-5995-4753-8ca5-57caf035c2a3",
-          "7e682d77-1268-41ff-bdd6-219714c625ce",
-          "5a4f23e7-1069-47f3-91f7-861deaf0e133"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531",
+          "ba9085c0-56d3-4043-805b-29416d71ec28",
+          "3bd0a6ca-b4df-4c73-8794-b81840114404",
+          "41236bb2-0bf1-41f8-b37f-558c657d32f3",
+          "a2c7b473-bae5-438c-9abb-4097dbabf9ae",
+          "ecda3697-9f43-487a-a57f-761ff9627121"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1481,15 +1481,15 @@
         "end": "2027-04-26",
         "vertical": 2,
         "ids": [
-          "ea84a866-bf3b-4a5f-b998-44a225b7d05f",
-          "2681e950-4816-4bbc-a443-bde6b9a04b86",
-          "8b1c2604-1a3c-4320-83cb-5cafcb81c6d0",
-          "f2838cff-1ba7-4c76-b3bc-a3a628f48327",
-          "05a44aa3-f991-48fc-9df8-1410c444284a"
+          "d8467a07-e80d-43f5-828c-7db190d70459",
+          "7b377919-131f-44f5-8679-00d6a5d076ea",
+          "f96da29b-ddcc-49c3-acc7-030e21ae9bc5",
+          "538fae48-c31b-4068-bde7-5508aaee74eb",
+          "f47865fa-b1b2-4e5c-abf6-a666d1688e3b"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1503,15 +1503,15 @@
         "end": "2027-04-26",
         "vertical": 3,
         "ids": [
-          "08734911-7c86-429e-8e54-4d098b60175d",
-          "d85ce58a-6a98-4c04-8eb7-53c114689c0f",
-          "2e5ddbe9-cc82-4aba-bed5-0233dc1f9ebc",
-          "3192f910-a5c0-4bd3-98d0-7d1e8e2aaf4f",
-          "a974c20c-5974-4094-9289-c44275e7b1e2"
+          "d78d207e-a760-4b6b-80dc-d4140450d639",
+          "880cd513-b48d-4133-9873-48e8926f8948",
+          "6c71ed35-f25a-423c-b19f-7afd2626772b",
+          "0ed27675-4015-4cd6-9e24-53218627e5cc",
+          "64d940ca-0d75-4cdc-bd7e-a55d5462c81c"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1525,16 +1525,16 @@
         "end": "2027-04-26",
         "vertical": 4,
         "ids": [
-          "c08f67fa-1d2a-41d0-8009-aac25a6b820d",
-          "2ed20773-fab5-4b07-950d-bb733d639d8f",
-          "3b06f092-53e6-4bb9-a9b7-3425386d8986",
-          "4b301231-2403-4076-b20f-1c56a1c9c350",
-          "e6bf57d0-3c7c-4e13-9e26-d87ea7375ec2",
-          "5a5d1921-699c-4b8d-afb0-9b43b4a6f292"
+          "ff4057fd-640e-4889-ad5f-f9ac25ed129c",
+          "e47697ac-c380-4e6d-9cab-d1e8ee8401a8",
+          "d57ce534-b4a0-4f5b-9201-705db07681bf",
+          "5b81b7a0-6515-49d8-953e-021c1689f67d",
+          "e813fb01-0f79-42d7-8b2a-3cacf6f47763",
+          "ee370751-76e5-489c-baba-176086a6c43f"
         ],
         "repeated": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ],
         "width": 1046.921875,
         "height": 714.328125,
@@ -1547,202 +1547,202 @@
     "sourceRows": 23,
     "rows": [
       {
-        "id": "fd96e269-79af-4162-ac16-2257644d360e",
+        "id": "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "fb134791-1d4b-4de1-b4b7-054eaef750cd",
+        "id": "3f74ded2-3925-4dc9-8fed-baa54fdb8531",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4"
         ]
       },
       {
-        "id": "bf6b16ef-b3c3-4c67-a4a8-86f9ed29f843",
+        "id": "ba9085c0-56d3-4043-805b-29416d71ec28",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "1d826a91-6c14-4ec7-9f39-9276033a1064",
+        "id": "3bd0a6ca-b4df-4c73-8794-b81840114404",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "9581895c-5995-4753-8ca5-57caf035c2a3",
+        "id": "41236bb2-0bf1-41f8-b37f-558c657d32f3",
         "name": "Работа 003",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "7e682d77-1268-41ff-bdd6-219714c625ce",
+        "id": "a2c7b473-bae5-438c-9abb-4097dbabf9ae",
         "name": "Работа 004",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "5a4f23e7-1069-47f3-91f7-861deaf0e133",
+        "id": "ecda3697-9f43-487a-a57f-761ff9627121",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "ea84a866-bf3b-4a5f-b998-44a225b7d05f",
+        "id": "d8467a07-e80d-43f5-828c-7db190d70459",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "2681e950-4816-4bbc-a443-bde6b9a04b86",
+        "id": "7b377919-131f-44f5-8679-00d6a5d076ea",
         "name": "Работа 007",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "8b1c2604-1a3c-4320-83cb-5cafcb81c6d0",
+        "id": "f96da29b-ddcc-49c3-acc7-030e21ae9bc5",
         "name": "Работа 008",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "f2838cff-1ba7-4c76-b3bc-a3a628f48327",
+        "id": "538fae48-c31b-4068-bde7-5508aaee74eb",
         "name": "Работа 009",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "05a44aa3-f991-48fc-9df8-1410c444284a",
+        "id": "f47865fa-b1b2-4e5c-abf6-a666d1688e3b",
         "name": "Работа 010",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "08734911-7c86-429e-8e54-4d098b60175d",
+        "id": "d78d207e-a760-4b6b-80dc-d4140450d639",
         "name": "Работа 011",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "d85ce58a-6a98-4c04-8eb7-53c114689c0f",
+        "id": "880cd513-b48d-4133-9873-48e8926f8948",
         "name": "Работа 012",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "2e5ddbe9-cc82-4aba-bed5-0233dc1f9ebc",
+        "id": "6c71ed35-f25a-423c-b19f-7afd2626772b",
         "name": "Работа 013",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "3192f910-a5c0-4bd3-98d0-7d1e8e2aaf4f",
+        "id": "0ed27675-4015-4cd6-9e24-53218627e5cc",
         "name": "Работа 014",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "a974c20c-5974-4094-9289-c44275e7b1e2",
+        "id": "64d940ca-0d75-4cdc-bd7e-a55d5462c81c",
         "name": "Работа 015",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "c08f67fa-1d2a-41d0-8009-aac25a6b820d",
+        "id": "ff4057fd-640e-4889-ad5f-f9ac25ed129c",
         "name": "Работа 016",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "2ed20773-fab5-4b07-950d-bb733d639d8f",
+        "id": "e47697ac-c380-4e6d-9cab-d1e8ee8401a8",
         "name": "Работа 017",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "3b06f092-53e6-4bb9-a9b7-3425386d8986",
+        "id": "d57ce534-b4a0-4f5b-9201-705db07681bf",
         "name": "Работа 018",
         "archived": false,
         "parentIds": [
-          "fd96e269-79af-4162-ac16-2257644d360e",
-          "fb134791-1d4b-4de1-b4b7-054eaef750cd"
+          "bc87e1cd-2bab-430b-b8e7-efd7a1529be4",
+          "3f74ded2-3925-4dc9-8fed-baa54fdb8531"
         ]
       },
       {
-        "id": "4b301231-2403-4076-b20f-1c56a1c9c350",
+        "id": "5b81b7a0-6515-49d8-953e-021c1689f67d",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "e6bf57d0-3c7c-4e13-9e26-d87ea7375ec2",
+        "id": "e813fb01-0f79-42d7-8b2a-3cacf6f47763",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "4b301231-2403-4076-b20f-1c56a1c9c350"
+          "5b81b7a0-6515-49d8-953e-021c1689f67d"
         ]
       },
       {
-        "id": "5a5d1921-699c-4b8d-afb0-9b43b4a6f292",
+        "id": "ee370751-76e5-489c-baba-176086a6c43f",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "4b301231-2403-4076-b20f-1c56a1c9c350",
-          "e6bf57d0-3c7c-4e13-9e26-d87ea7375ec2"
+          "5b81b7a0-6515-49d8-953e-021c1689f67d",
+          "e813fb01-0f79-42d7-8b2a-3cacf6f47763"
         ]
       }
     ]
@@ -1758,10 +1758,10 @@
         "end": "2027-05-31",
         "vertical": 1,
         "ids": [
-          "55b591af-4a83-47d1-abd9-9aa3f63d8442",
-          "19104cde-f236-41ed-8c70-aaf4cd6fa75d",
-          "0f6fa4d4-e2fd-4f95-a65d-5bc350652276",
-          "fca4a6b9-5887-4c3c-8697-5442aa8eb1c6"
+          "86e6f5bf-875d-435d-90f3-b3b565c78530",
+          "dc419b9f-905b-428f-87b7-a3911e90cf1c",
+          "1b756794-a5da-4f7b-aafc-8e97b41d11cf",
+          "ccbb0238-b1a5-4da4-ad37-f1e46ae8d5be"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1776,10 +1776,10 @@
         "end": "2027-12-31",
         "vertical": 1,
         "ids": [
-          "55b591af-4a83-47d1-abd9-9aa3f63d8442",
-          "19104cde-f236-41ed-8c70-aaf4cd6fa75d",
-          "0f6fa4d4-e2fd-4f95-a65d-5bc350652276",
-          "fca4a6b9-5887-4c3c-8697-5442aa8eb1c6"
+          "86e6f5bf-875d-435d-90f3-b3b565c78530",
+          "dc419b9f-905b-428f-87b7-a3911e90cf1c",
+          "1b756794-a5da-4f7b-aafc-8e97b41d11cf",
+          "ccbb0238-b1a5-4da4-ad37-f1e46ae8d5be"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1794,10 +1794,10 @@
         "end": "2028-01-10",
         "vertical": 1,
         "ids": [
-          "55b591af-4a83-47d1-abd9-9aa3f63d8442",
-          "19104cde-f236-41ed-8c70-aaf4cd6fa75d",
-          "0f6fa4d4-e2fd-4f95-a65d-5bc350652276",
-          "fca4a6b9-5887-4c3c-8697-5442aa8eb1c6"
+          "86e6f5bf-875d-435d-90f3-b3b565c78530",
+          "dc419b9f-905b-428f-87b7-a3911e90cf1c",
+          "1b756794-a5da-4f7b-aafc-8e97b41d11cf",
+          "ccbb0238-b1a5-4da4-ad37-f1e46ae8d5be"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1811,31 +1811,31 @@
     "sourceRows": 4,
     "rows": [
       {
-        "id": "55b591af-4a83-47d1-abd9-9aa3f63d8442",
+        "id": "86e6f5bf-875d-435d-90f3-b3b565c78530",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "19104cde-f236-41ed-8c70-aaf4cd6fa75d",
+        "id": "dc419b9f-905b-428f-87b7-a3911e90cf1c",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "55b591af-4a83-47d1-abd9-9aa3f63d8442"
+          "86e6f5bf-875d-435d-90f3-b3b565c78530"
         ]
       },
       {
-        "id": "0f6fa4d4-e2fd-4f95-a65d-5bc350652276",
+        "id": "1b756794-a5da-4f7b-aafc-8e97b41d11cf",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "fca4a6b9-5887-4c3c-8697-5442aa8eb1c6",
+        "id": "ccbb0238-b1a5-4da4-ad37-f1e46ae8d5be",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "0f6fa4d4-e2fd-4f95-a65d-5bc350652276"
+          "1b756794-a5da-4f7b-aafc-8e97b41d11cf"
         ]
       }
     ]
@@ -1851,9 +1851,9 @@
         "end": "2026-11-14",
         "vertical": 1,
         "ids": [
-          "9a54ab16-15b2-4758-9005-6b47a7800ce1",
-          "07905453-4657-4c2a-95f1-b8d49c953afe",
-          "21159a5a-0a3f-4e19-bce0-15d740f619cb"
+          "728afb39-99d3-4a05-84e5-07a26c978859",
+          "0b8f80ae-086e-4931-85bd-7603107df630",
+          "52e40f83-c1f1-43b8-9c33-15850f34829c"
         ],
         "repeated": [],
         "width": 1046.921875,
@@ -1867,26 +1867,26 @@
     "sourceRows": 3,
     "rows": [
       {
-        "id": "9a54ab16-15b2-4758-9005-6b47a7800ce1",
+        "id": "728afb39-99d3-4a05-84e5-07a26c978859",
         "name": "Подготовительные строительные работы по устройству железобетонных конструкций и монтажу инженерных сетей на объекте",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "07905453-4657-4c2a-95f1-b8d49c953afe",
+        "id": "0b8f80ae-086e-4931-85bd-7603107df630",
         "name": "Подготовительные строительные работы по устройству железобетонных конструкций и монтажу инженерных сетей на объекте",
         "archived": false,
         "parentIds": [
-          "9a54ab16-15b2-4758-9005-6b47a7800ce1"
+          "728afb39-99d3-4a05-84e5-07a26c978859"
         ]
       },
       {
-        "id": "21159a5a-0a3f-4e19-bce0-15d740f619cb",
+        "id": "52e40f83-c1f1-43b8-9c33-15850f34829c",
         "name": "Подготовительные строительные работы по устройству железобетонных конструкций и монтажу инженерных сетей на объекте",
         "archived": false,
         "parentIds": [
-          "9a54ab16-15b2-4758-9005-6b47a7800ce1",
-          "07905453-4657-4c2a-95f1-b8d49c953afe"
+          "728afb39-99d3-4a05-84e5-07a26c978859",
+          "0b8f80ae-086e-4931-85bd-7603107df630"
         ]
       }
     ]

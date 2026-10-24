@@ -1,3 +1,4 @@
+import {setupDate,dateValue,setDateValue,rawDateText} from './date-input.js';
 import * as D from './domain.js';
 
 const KEYS=['name','amountRub','plannedDate','status','paidDate','comment'];
@@ -39,17 +40,17 @@ export function createPaymentEditor(box,{resource,locked,onDirty,onError,onSumma
       for(const key of KEYS){
         const input=el(key==='status'?'select':'input'),id=`payment-${pay.id}-${key}`,errorId=id+'-error';
         if(key==='status'){for(const[value,title]of Object.entries({planned:'Запланирован',paid:'Оплачен'})){const option=el('option',title);option.value=value;input.append(option);}}
-        else input.type=key.endsWith('Date')?'date':'text';
-        input.id=id;input.name=id;input.dataset.key=key;input.value=f[key];input.setAttribute('aria-label',TITLES[key]);input.setAttribute('aria-describedby',errorId);
+        else if(key.endsWith('Date'))setupDate(input);else input.type='text';
+        input.id=id;input.name=id;input.dataset.key=key;if(key.endsWith('Date'))setDateValue(input,f[key]);else input.value=f[key];input.setAttribute('aria-label',TITLES[key]);input.setAttribute('aria-describedby',errorId);
         input.disabled=locked()||(key==='paidDate'&&f.status!=='paid');if(key==='amountRub')input.inputMode='numeric';
         const label=el('label',TITLES[key]),error=el('span');error.id=errorId;error.className='field-error';label.append(input,error);grid.append(label);
-        if(key!=='status')input.addEventListener('input',()=>{touch(pay);f[key]=input.value;onSummary();});
+        if(key!=='status')input.addEventListener('input',()=>{touch(pay);f[key]=key.endsWith('Date')?dateValue(input):input.value;onSummary();});
         input.addEventListener('change',()=>{
           if(key==='status'){
             if(input.value==='planned'&&f.status==='paid'&&!confirm('Вернуть в запланированные? Фактическая дата будет очищена.')){input.value=f.status;return;}
             touch(pay);f.status=input.value;f.paidDate=f.status==='paid'?(f.paidDate||D.today()):'';
-            const date=row.querySelector('[data-key="paidDate"]');date.disabled=f.status!=='paid';date.value=f.paidDate;
-          }else{touch(pay);f[key]=input.value;}
+            const date=row.querySelector('[data-key="paidDate"]');date.disabled=f.status!=='paid';setDateValue(date,f.paidDate);
+          }else{touch(pay);f[key]=key.endsWith('Date')?dateValue(input):input.value;}
           try{Object.assign(pay,parsed(pay));error.textContent='';input.removeAttribute('aria-invalid');onSummary();}catch(e){onError(e);}
         });
       }
@@ -71,6 +72,6 @@ export function createPaymentEditor(box,{resource,locked,onDirty,onError,onSumma
     if(!input)return false;input.setAttribute('aria-invalid','true');message.textContent=error.message;input.focus();return true;
   }
   function total(){return D.sum(ordered().map(pay=>{try{return D.integer(fields(pay).amountRub);}catch{invalid(pay,'amountRub','Проверьте сумму платежа.');}}));}
-  function snapshot(){return ordered().map(pay=>({id:pay.id,...fields(pay),autoManaged:pay.autoManaged}));}
+  function snapshot(){return ordered().map(pay=>({id:pay.id,...Object.fromEntries(Object.entries(fields(pay)).map(([key,value])=>[key,key.endsWith('Date')?rawDateText(value):value])),autoManaged:pay.autoManaged}));}
   return{render,read,reveal,showError,total,snapshot};
 }

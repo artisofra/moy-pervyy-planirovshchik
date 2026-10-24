@@ -13,17 +13,16 @@ export function startOffline({isBusy}){
     if(hasUpdate&&isBusy())message.textContent='Сохраните или закройте открытые формы и предпросмотр. Ввод остаётся на месте.';
     else if(message.textContent.startsWith('Сохраните или закройте'))message.textContent='';
   }
-  function paint(){state.textContent=cacheReady?(navigator.onLine?'Готово к работе без интернета':'Без интернета · файлы приложения готовы'):(navigator.onLine?'Офлайн пока не подготовлен':'Нет сети · офлайн пока не подготовлен');retry.hidden=cacheReady;refresh();}
+  const unavailable=()=>!isSecureContext||!navigator.serviceWorker;
+  function paint(){if(unavailable()){state.textContent=location.protocol==='file:'?'Откройте HTTPS-версию приложения.':'Для работы без интернета и установки откройте HTTPS-адрес или localhost.';retry.hidden=true;refresh();return;}state.textContent=cacheReady?(navigator.onLine?'Готово к работе без интернета':'Без интернета · файлы приложения готовы'):(navigator.onLine?'Офлайн пока не подготовлен':'Нет сети · офлайн пока не подготовлен');retry.hidden=cacheReady;refresh();}
   function ask(worker,type){return new Promise(resolve=>{if(!worker){resolve(null);return;}const channel=new MessageChannel(),timer=setTimeout(()=>{channel.port1.close();resolve(null);},15000);channel.port1.onmessage=e=>{clearTimeout(timer);channel.port1.close();resolve(e.data);};worker.postMessage({type},[channel.port2]);});}
   async function check(repair=false){
-    if(checking)return;checking=true;retry.disabled=true;
+    if(unavailable()){paint();return;}if(checking)return;checking=true;retry.disabled=true;
     try{const result=await ask(navigator.serviceWorker?.controller||registration?.active,repair?'REPAIR_CACHE':'CACHE_STATUS');cacheReady=!!result?.ready;paint();}
     finally{checking=false;retry.disabled=false;}
   }
   async function register(force=false){
-    if(!isSecureContext||!navigator.serviceWorker){
-      state.textContent=location.protocol==='file:'?'Откройте HTTPS-версию приложения.':'Для работы без интернета и установки откройте HTTPS-адрес или localhost.';retry.hidden=true;return;
-    }
+    if(unavailable()){paint();return;}
     try{
       const script=new URL('./sw.js',import.meta.url),existing=await navigator.serviceWorker.getRegistration(new URL('./',import.meta.url));
       registration=existing&&!force?existing:await navigator.serviceWorker.register(script,{updateViaCache:'none'});

@@ -2,7 +2,7 @@ import{test}from'node:test';import assert from'node:assert/strict';import{readFi
 test('Поставка воспроизводится из исходников: список, версия и каждый хеш совпадают',async()=>{
  const manifest=await releaseManifest(process.cwd());assert.equal(await readFile('app-assets.js','utf8'),configSource(manifest));
  const walk=async(dir,prefix='')=>{const list=[];for(const entry of await readdir(dir,{withFileTypes:true})){const file=prefix+entry.name;if(entry.isDirectory())list.push(...await walk(dir+'/'+entry.name,file+'/'));else list.push(file);}return list;};
- assert.deepEqual((await walk('output/release/stroiplan')).sort(),[...DELIVERY_FILES].sort());for(const file of DELIVERY_FILES)assert.deepEqual(await readFile(file),await readFile('output/release/stroiplan/'+file));assert.equal(RUNTIME_FILES.length,22);
+ assert.deepEqual((await walk('output/release/stroiplan')).sort(),[...DELIVERY_FILES].sort());for(const file of DELIVERY_FILES)assert.deepEqual(await readFile(file),await readFile('output/release/stroiplan/'+file));assert.equal(RUNTIME_FILES.length,23);
 });
 test('Manifest и PNG-иконки автономны; JSON Schema соответствует проверяемой копии',async()=>{
  const manifest=JSON.parse(await readFile('manifest.webmanifest'));assert.equal(manifest.start_url,'./');assert.equal(manifest.scope,'./');assert.equal(manifest.display,'standalone');

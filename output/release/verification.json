@@ -1,5 +1,5 @@
 {
-  "version": "77d23eb34b7226222f5c",
+  "version": "0bb4166c0d7a8a2a4490",
   "assets": [
     {
       "url": "index.html",
@@ -7,7 +7,7 @@
     },
     {
       "url": "styles.css",
-      "sha256": "d8f37ed23bebc34c09eb3baaafd17fbd058375db0039d6d4d05265c60d5534c0"
+      "sha256": "c5320ee01500e3779c502db84ce94dad2d53b730963f8e497243554c8c9cdc44"
     },
     {
       "url": "gantt.css",
@@ -15,15 +15,19 @@
     },
     {
       "url": "app.js",
-      "sha256": "eef97d730ce77d48e5f88e482bdcc4c0c2350b73e26c3f2c87c9df5cb992a413"
+      "sha256": "fc4e70bbcd26eb01b05b9e41d97c7e79fe722a0e95fcf303436eb9cd34c9d270"
     },
     {
       "url": "payment-editor.js",
-      "sha256": "1d7f70e3cf6a174898c86e4259f55f4b89136a21a88f71a3ac1b5e4b2ea800fd"
+      "sha256": "475815636b3c5087111f6c5211cc9a626585c8dbf3b472fb87b720999cee6b4f"
+    },
+    {
+      "url": "date-input.js",
+      "sha256": "548633661865fa7e736b608dee2985a91fa57eac6e3842e84be4917e1511884a"
     },
     {
       "url": "domain.js",
-      "sha256": "199bb750ea7d9cd5dfd778e723e9daf8e5967672ad1431924f0cc814f758e37c"
+      "sha256": "cdab6f19c72d1b8ce052ec64395f681de274ecb110f2ee43f075cc5f4658bd73"
     },
     {
       "url": "storage.js",
@@ -51,7 +55,7 @@
     },
     {
       "url": "finance-view.js",
-      "sha256": "8e759b46d3ce4d27d5ea26559407ceff5c2cca25e12234d9913361600a42622b"
+      "sha256": "b7e53e6d8f64bbe3dc85910b7bc5677e68bef373aa99790f623fa748c201e0cd"
     },
     {
       "url": "gantt.js",
@@ -59,7 +63,7 @@
     },
     {
       "url": "gantt-view.js",
-      "sha256": "be381d14615d415322ccb3e032aae8b9e8a3676894d7ffc1803c926c49567417"
+      "sha256": "53a9f0a302529d28fcb69f0cf8ff771fd447cdc1a2917495cd39bdca18a4de7d"
     },
     {
       "url": "gantt-print.js",
@@ -67,7 +71,7 @@
     },
     {
       "url": "offline.js",
-      "sha256": "511de238d79a5c5bf0e568f5dfb3ea0f1742e4a456e6db83f48107d7098a9f8b"
+      "sha256": "5412962caeb68037ef85e11c502f60be34e48f1cbfd35c084d50b1d28f0ff039"
     },
     {
       "url": "manifest.webmanifest",
@@ -96,6 +100,7 @@
     "gantt.css",
     "app.js",
     "payment-editor.js",
+    "date-input.js",
     "domain.js",
     "storage.js",
     "schema-data.js",

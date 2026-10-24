@@ -8,3 +8,8 @@
 
 #offline-panel{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:center;margin-bottom:12px;line-height:1.6}#offline-panel button{font-size:12px}#offline-message{flex-basis:100%}#update-state{color:#765317}#offline-panel [hidden]{display:none}
 .work-toggle{align-self:flex-start;white-space:nowrap}.payment-pages{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}.payment-pages p{flex-basis:100%;margin:0}.work-body[hidden]{display:none}
+
+/* The whole checkbox label is the touch target, including narrow layouts. */
+label.check{min-width:44px;min-height:44px;padding:10px 8px;align-items:center;gap:8px;cursor:pointer}
+label.check input{flex:0 0 20px;margin:0}
+.filter-context{position:sticky;top:0;z-index:3;background:#eff5e9;border:1px solid #d5dfd1;border-radius:8px;padding:10px 12px;overflow-wrap:anywhere;font-size:13px;max-height:30vh;overflow:auto}

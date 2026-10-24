@@ -19,6 +19,7 @@ export function dateValid(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(s)||s<'0001-01-01')r
 export function addDays(s,n){const d=new Date(s+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10);}
 export function duration(a,b){if(!dateValid(a)||!dateValid(b)||b<a)throw Error('Проверьте диапазон дат');return Math.round((Date.parse(b+'T12:00:00Z')-Date.parse(a+'T12:00:00Z'))/86400000)+1;}
 export const fmtDate=s=>s?s.split('-').reverse().join('.'):'—';
+export const fmtQuantity=n=>new Intl.NumberFormat('ru-RU',{useGrouping:false,maximumFractionDigits:2}).format(n/100);
 export const rub=n=>new Intl.NumberFormat('ru-RU',{maximumFractionDigits:0}).format(n)+' ₽';
 export function integer(s,max=1e15){if(!/^\d+$/.test(String(s)))throw Error('Введите целое неотрицательное число');const n=Number(s);if(!Number.isSafeInteger(n)||n>max)throw Error('Значение превышает допустимый предел');return n;}
 export function quantity(s){s=String(s).trim().replace(',','.');if(!/^\d+(\.\d{1,2})?$/.test(s))throw Error('Количество: положительное число, до двух знаков после запятой');const [a,b='']=s.split('.');const n=Number(a)*100+Number(b.padEnd(2,'0'));if(!Number.isSafeInteger(n)||n<1||n>1e8)throw Error('Количество должно быть от 0,01 до 1 000 000');return n;}

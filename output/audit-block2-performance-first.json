@@ -1,0 +1,68 @@
+{
+  "hardware": {
+    "platform": "win32",
+    "release": "10.0.19044",
+    "cpu": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+    "logicalCpus": 4,
+    "ramGiB": 8
+  },
+  "browser": "155.0.8059.85",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "device": "Windows desktop, реальный Chrome; это не мобильный замер",
+  "counts": {
+    "project": 10,
+    "stage": 100,
+    "work": 500,
+    "resource": 2500,
+    "payment": 5000,
+    "history": 5000,
+    "ancestor": 0,
+    "bytes": 4501964
+  },
+  "uiImportCompareMs": 5449,
+  "samples": [
+    {
+      "financeFilterRecalculateMs": 16.1,
+      "ganttFilterMs": 3.9,
+      "historyFilterMs": 1,
+      "validateImportMs": 814.9,
+      "compareMs": 912.1,
+      "recordMs": 55.1
+    },
+    {
+      "financeFilterRecalculateMs": 18.3,
+      "ganttFilterMs": 2.9,
+      "historyFilterMs": 0.9,
+      "validateImportMs": 806.5,
+      "compareMs": 807.6,
+      "recordMs": 35.1
+    },
+    {
+      "financeFilterRecalculateMs": 14.7,
+      "ganttFilterMs": 2,
+      "historyFilterMs": 0.6,
+      "validateImportMs": 820.8,
+      "compareMs": 773.5,
+      "recordMs": 22.8
+    },
+    {
+      "financeFilterRecalculateMs": 14.4,
+      "ganttFilterMs": 1.9,
+      "historyFilterMs": 0.7,
+      "validateImportMs": 775.4,
+      "compareMs": 756.6,
+      "recordMs": 24.7
+    },
+    {
+      "financeFilterRecalculateMs": 14.8,
+      "ganttFilterMs": 2.6,
+      "historyFilterMs": 1.1,
+      "validateImportMs": 753.8,
+      "compareMs": 847.1,
+      "recordMs": 25.8
+    }
+  ]
+}
