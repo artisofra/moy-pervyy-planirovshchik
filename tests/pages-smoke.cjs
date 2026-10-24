@@ -1,0 +1,31 @@
+const{chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs/promises'),{createHash}=require('node:crypto');
+(async()=>{
+ const base='https://artisofra.github.io/moy-pervyy-planirovshchik/',release=JSON.parse(await fs.readFile('output/release/verification.json','utf8')),results=[],errors=[];
+ const check=async(name,fn)=>{await fn();results.push(name);console.log('PASS '+name);};
+ await check('HTTPS: каждый файл опубликованной поставки совпадает с локальным SHA-256',async()=>{
+  for(const file of release.delivery){const response=await fetch(new URL(file,base),{signal:AbortSignal.timeout(30000)});assert.equal(response.status,200,file);const bytes=Buffer.from(await response.arrayBuffer()),local=await fs.readFile(file);assert.equal(createHash('sha256').update(bytes).digest('hex'),createHash('sha256').update(local).digest('hex'),file);}
+ });
+ const browser=await chromium.launch({headless:true,executablePath:process.env.BROWSER_PATH}),c=await browser.newContext({locale:'ru-RU',timezoneId:'Europe/Moscow',acceptDownloads:true}),p=await c.newPage();
+ p.setDefaultTimeout(30000);p.on('dialog',d=>d.accept());p.on('pageerror',e=>errors.push(e.message));
+ const read=()=>p.evaluate(async()=>{const S=await import('./storage.js');return S.read(await S.openDB());});
+ async function save(){await p.locator('#submit-form').click();await p.locator('#editor').waitFor({state:'hidden'});}
+ try{
+  await check('Первое открытие: интерфейс, база и защищённый контекст',async()=>{await p.goto(base);await p.getByRole('heading',{name:'Объекты',exact:true}).waitFor();assert.equal(await p.evaluate(()=>isSecureContext),true);assert.ok((await read()).projects.length);});
+  await check('Подпапка GitHub Pages: service worker и полный офлайн-кеш готовы',async()=>{await p.locator('#offline-state').filter({hasText:'Готово к работе без интернета'}).waitFor();await p.waitForFunction(()=>!!navigator.serviceWorker.controller);const scope=await p.evaluate(async()=>(await navigator.serviceWorker.ready).scope);assert.equal(scope,base);});
+  await check('Гант на опубликованном сайте: ручной год не прерывается',async()=>{
+   await p.getByRole('button',{name:'Гант',exact:true}).click();
+   for(const[label,day]of[['Гант: с даты','11'],['Гант: по дату','20']]){const input=p.getByLabel(label,{exact:true});await input.focus();await input.press('ArrowLeft');await input.press('ArrowLeft');await input.press('ArrowLeft');await input.evaluate(n=>{window.liveDate=n;});await input.pressSequentially(day,{delay:30});await input.pressSequentially('11',{delay:30});await input.pressSequentially('2026',{delay:50});assert.equal(await input.inputValue(),`2026-11-${day}`);assert.equal(await input.evaluate(n=>n===window.liveDate&&n===document.activeElement),true);await p.keyboard.press('Enter');}
+   await p.locator('.gantt-context').filter({hasText:'11.11.2026 — 20.11.2026'}).waitFor();
+  });
+  await check('Создание и повторное открытие объекта на HTTPS сохраняют данные',async()=>{await p.getByRole('button',{name:'Объекты',exact:true}).click();await p.getByRole('button',{name:'+ Создать объект',exact:true}).click();await p.getByLabel('Название *',{exact:true}).fill('Проверка HTTPS');await save();await p.reload();await p.getByRole('heading',{name:'Проверка HTTPS',exact:true}).waitFor();assert.ok((await read()).projects.some(p=>p.name==='Проверка HTTPS'));});
+  await check('Без сети: повторное открытие, этап/работа/ресурс и финансовый расчёт',async()=>{
+   await c.setOffline(true);await p.reload();await p.getByRole('heading',{name:'Проверка HTTPS',exact:true}).waitFor();await p.locator('.card').filter({has:p.getByRole('heading',{name:'Проверка HTTPS',exact:true})}).getByRole('button',{name:'Открыть план →'}).click();
+   await p.getByRole('button',{name:'+ Добавить этап',exact:true}).click();await p.getByLabel('Название *',{exact:true}).fill('Этап проверки');await save();await p.getByRole('button',{name:'+ Добавить работу',exact:true}).click();await p.getByLabel('Название *',{exact:true}).fill('Работа проверки');await save();await p.getByRole('button',{name:'+ Добавить ресурс',exact:true}).click();await p.getByLabel('Название *',{exact:true}).fill('Ресурс проверки');await p.getByLabel('Цена за единицу, ₽ *',{exact:true}).fill('100');await save();
+   const obj=(await read()).projects.find(p=>p.name==='Проверка HTTPS'),r=obj.stages[0].works[0].resources[0];assert.equal(r.unitPriceRub,100);assert.equal(r.payments[0].amountRub,100);await p.getByRole('button',{name:'Финансы',exact:true}).click();await p.getByLabel('Все объекты',{exact:true}).uncheck();await p.getByLabel('Проверка HTTPS',{exact:true}).check();assert.match(await p.locator('#finance-planned').textContent(),/^100\s*₽$/);
+  });
+  await check('Без сети: скачанный JSON содержит новый объект и платежи',async()=>{await p.locator('#download-plan').click();const pending=p.waitForEvent('download');await p.locator('.files-dialog').getByRole('button',{name:'Скачать все объекты',exact:true}).click();const file=await pending,data=JSON.parse(await fs.readFile(await file.path(),'utf8'));const obj=data.projects.find(p=>p.name==='Проверка HTTPS');assert.equal(obj.stages[0].works[0].resources[0].payments[0].amountRub,100);await p.locator('.files-dialog').getByRole('button',{name:'Закрыть',exact:true}).click();});
+  await check('Возврат сети и ширина телефона: данные на месте, общей горизонтальной прокрутки нет',async()=>{await c.setOffline(false);await p.setViewportSize({width:360,height:800});await p.getByRole('button',{name:'Объекты',exact:true}).click();assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await p.getByRole('heading',{name:'Проверка HTTPS',exact:true}).waitFor();await p.screenshot({path:'output/github-pages-mobile.png',fullPage:true});});
+  assert.deepEqual(errors,[]);await fs.writeFile('output/github-pages-checks.json',JSON.stringify({checkedOn:'2026-10-24',url:base,releaseVersion:release.version,browser:await browser.version(),results,errors,realPhoneTested:false},null,2));console.log('TOTAL '+results.length);
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});

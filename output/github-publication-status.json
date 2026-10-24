@@ -2,10 +2,16 @@
   "checkedOn": "2026-10-24",
   "repository": "https://github.com/artisofra/moy-pervyy-planirovshchik",
   "branch": "main",
-  "private": true,
-  "pagesEnabled": false,
-  "pagesApiStatus": 422,
-  "pagesApiMessage": "Your current plan does not support GitHub Pages for this repository.",
-  "siteUrl": null,
-  "releaseVersion": "ced86dbe65c948acf977"
+  "private": false,
+  "pagesEnabled": true,
+  "pagesSource": {
+    "branch": "main",
+    "path": "/"
+  },
+  "httpsEnforced": true,
+  "buildStatus": "built",
+  "siteUrl": "https://artisofra.github.io/moy-pervyy-planirovshchik/",
+  "releaseVersion": "ced86dbe65c948acf977",
+  "liveChecksPassed": 8,
+  "realPhoneTested": false
 }
