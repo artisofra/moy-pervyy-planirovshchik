@@ -1,21 +1,21 @@
 {
-  "version": "0bb4166c0d7a8a2a4490",
+  "version": "6a15bf1fb718a1ea4e75",
   "assets": [
     {
       "url": "index.html",
-      "sha256": "209fc1bd1b3ae7244a4f963554e2c0ad71f68a91807b73cb8b9877f9bcf371b8"
+      "sha256": "a199ee8e0e82cfceb9d026fa9911d050c431e75d71b5470651fb4049e9ca6b54"
     },
     {
       "url": "styles.css",
-      "sha256": "c5320ee01500e3779c502db84ce94dad2d53b730963f8e497243554c8c9cdc44"
+      "sha256": "7f8e460ab2c6fbff12264b7fe64e17b9e239b2e5b6724946a90281407cacbc3a"
     },
     {
       "url": "gantt.css",
-      "sha256": "62ae423c747e92aa9494f476834689fc75a60b9e7ebc1d2c8bc8460f39b1a81d"
+      "sha256": "8a7494bca9995cd842ad925eedc292d70a967a8b18c97dc34434c509fd747000"
     },
     {
       "url": "app.js",
-      "sha256": "fc4e70bbcd26eb01b05b9e41d97c7e79fe722a0e95fcf303436eb9cd34c9d270"
+      "sha256": "e7c36cc910c4c9e7695f7569c9b9ef2e0e145d946f1825dd14ed4d7b38e04b5e"
     },
     {
       "url": "payment-editor.js",
@@ -27,11 +27,11 @@
     },
     {
       "url": "domain.js",
-      "sha256": "cdab6f19c72d1b8ce052ec64395f681de274ecb110f2ee43f075cc5f4658bd73"
+      "sha256": "cf3a8a0a674fcfb83f3ece4cf204f107695af4f9f1dea4b425c6ecab40cf8b59"
     },
     {
       "url": "storage.js",
-      "sha256": "6862d65e4e84be9762fcffe9df4918806ba9b6f958d29130383e7e01bacd9f0c"
+      "sha256": "73bcb21bb5d4c0f9186851dae8e83bf0ba07c3588238f7aaae11ef2e21b6d099"
     },
     {
       "url": "schema-data.js",
@@ -39,7 +39,7 @@
     },
     {
       "url": "schema-validator.js",
-      "sha256": "9da5f48d49c25ec766f961522264a186b5c89ca1d3339608116abd8187162330"
+      "sha256": "f4bc7212c9870eb8330a945afdac06706d6f4f11dff0342155c624f955d7dcff"
     },
     {
       "url": "exchange.js",
@@ -67,7 +67,7 @@
     },
     {
       "url": "gantt-print.js",
-      "sha256": "a43c3cf060aa5c85a24901fd5730c371aec2b976fd716095d5982125d539dc50"
+      "sha256": "e91b7c41b62ae9e018802c67153118617a0baf0a379b0891f44cc6a3d8408f89"
     },
     {
       "url": "offline.js",

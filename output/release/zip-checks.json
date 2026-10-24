@@ -1,7 +1,7 @@
 {
+  "sha256": "7098f7ab1496ab73d87eb6f36b7c00f2b31411a6eb44203f227a40e3f6c04cff",
   "checks": "entry list and each SHA-256 match delivery",
-  "sha256": "b499063700815e760eeef7f44b4f41f366e98180ef89d29d9ccd5a27cc607e9b",
+  "version": "6a15bf1fb718a1ea4e75",
   "files": 25,
-  "version": "0bb4166c0d7a8a2a4490",
   "archive": "stroiplan-static.zip"
 }
