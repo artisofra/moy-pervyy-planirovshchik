@@ -1,0 +1,6 @@
+{
+  "sha256": "58765d701d79f5b73e7b53f14631713567fed16319a088d86dafc863caa8b624",
+  "checks": "entry list and each SHA-256 match delivery",
+  "archive": "stroiplan-static.zip",
+  "files": 24
+}

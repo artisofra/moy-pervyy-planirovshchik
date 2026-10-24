@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Порядок работ един для представлений и не меняет исходный массив" time="0.052177" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Ресурсы и платежи: сначала время создания, затем ID без изменения исходных данных" time="0.001847" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Порядок учитывает время с разной точностью UTC и пропуски после удаления" time="0.012305" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Целочисленные суммы и округление половины вверх" time="0.002646" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Неверные количества и цены отклоняются" time="0.000963" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Календарные границы и високосные даты" time="0.000801" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Автоплатёж меняет сумму, но не свою дату" time="0.001004" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Нулевая стоимость и своя техника" time="0.000600" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Paid не меняет стоимость; архив исключается без двойного счёта" time="0.001048" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="История одного действия включает ресурс и платёж, редакция имеет предка" time="0.003429" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Перенос работы записывается изменением пути" time="0.001248" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Валидатор проверяет значения, повтор ID и некорректную свою технику" time="0.011599" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Демо: все категории, два этапа, аванс и остаток, валидная история" time="0.012440" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Строгая схема отклоняет лишние и отсутствующие поля" time="0.002777" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Ресурс и платежи фиксируются одним событием без вложенных массивов" time="0.005088" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\domain.test.js"/>
+	<testcase name="Экспорт и обратное чтение сохраняют всё содержимое, настройки не экспортируются" time="0.046988" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Каноническое сравнение не зависит от порядка ключей" time="0.015111" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Одинаковая редакция с другим содержимым запрещает весь файл" time="0.025271" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Новая, устаревшая, параллельная и несвязанная редакции распознаются" time="0.013689" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Импорт А сохраняет Б и настройки, не создаёт редакцию или события импорта" time="0.044575" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Одинаковое название с разными ID добавляется отдельно" time="0.008262" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Восстановление полной копии удаляет отсутствующие объекты и пример, merge сохраняет" time="0.036761" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Отсутствие объекта или отметка удаления в merge не удаляет локальный объект" time="0.005652" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="ID входящего потомка, совпавший с сохраняемым объектом, отклоняет весь результат" time="0.010147" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Повреждённый, неизвестный, чрезмерно вложенный JSON и опасные ключи отклоняются" time="0.083514" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Неверные даты, лишние поля, отсутствующие поля и деньги отклоняются до записи" time="0.037277" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="История: чужой объект, повтор события и неверные ссылки отклоняются" time="0.100762" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Перемещение работы сравнивается изменением пути, а не удалением и созданием" time="0.001425" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Сравнение показывает изменения стоимости и не суммирует стоимость с платежами" time="0.001438" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Каскадное удаление этапа сохраняет общие расходы и даёт одно событие истории" time="0.013877" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Удаление платежа не удаляет ресурс, ресурса — удаляет его платежи" time="0.019284" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Удаление объекта оставляет только метку, повторный импорт требует восстановления" time="0.015207" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Метки удаления ограничены 1000, старые удаляются детерминированно" time="0.104894" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Экспорт одного объекта снимает индикатор только с его редакции" time="0.007700" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Напоминание: 24 часа, позже, полная выгрузка, новая правка и отдельный объект" time="0.022936" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Учебный пример сам по себе не запускает напоминание" time="0.001608" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Имена выгрузки безопасны, все редакции и подпись остаются в оболочке" time="0.005036" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Ошибка файла содержит путь к платежу и понятное имя поля" time="0.006458" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="После удаления объекта последняя загрузка не сохраняет его финансовые детали" time="0.021176" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\exchange.test.js"/>
+	<testcase name="Контрольный пример ТЗ: 3703 стоимость, 2703 оплаты без архива" time="0.106094" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Архив: 3903 стоимость, 2903 оплаты; нет двойного учёта" time="0.001843" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Paid исключается из оплат, стоимость не меняется" time="0.000973" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Границы дней, недель и месяцев включительны" time="0.001169" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="За ноябрь суммы дневных, недельных и месячных столбцов равны" time="0.002336" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Фильтр категории влияет на оба показателя, группировка сохраняет итог" time="0.001489" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Период не влияет на стоимость, прошедшие planned не исчезают" time="0.001025" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Детализация каждой ячейки и итогов совпадает с её суммой" time="0.002202" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Пустой выбор не превращается в выбор всех объектов или категорий" time="0.001159" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Недораспределение и превышение считаются раздельно, стоимость не добавляется к оплате" time="0.001254" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="После правки paid или переноса даты платёж исчезает из прежней детализации" time="0.001019" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Расчёт не изменяет данные, настройки по умолчанию — текущий месяц и недели" time="0.001536" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\finance.test.js"/>
+	<testcase name="Гант: иерархия, порядок, календарные длительности и явные сроки родителей" time="0.076262" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Гант: автоматический период включает выходящих за родителя потомков" time="0.004597" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Гант: статус оставляет только нужные работы с родителями, пустой выбор пуст" time="0.004748" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Гант: пустые объекты допустимы без фильтра статуса, архив наследуется" time="0.004988" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Гант: сворачивание сохраняет родителя, но убирает потомков" time="0.017190" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Гант: вне периода строки остаются, полосы обрезаны включительно с продолжением" time="0.004766" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Гант: месяцы пропорциональны дням, в том числе високосным" time="0.000637" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Гант: неверные и неполные диапазоны отклоняются, данные не меняются" time="0.018562" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Печать: дневные окна не длиннее 31 дня без разрывов/дублирования" time="0.001702" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Печать: максимум 13 календарных недель и 12 месяцев, частичные границы" time="0.004432" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Печать: вертикальные страницы повторяют родителей и не теряют исходные строки" time="0.006353" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Печать: слишком высокая связка даёт ошибку, а не обрезанную страницу" time="0.003988" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Рабочий Гант: по умолчанию только пересекающие период работы и нужный контекст" time="0.004029" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Пересечение периода включает работы ровно на обеих границах и продолжающиеся работы" time="0.003177" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Краткий вид сохраняет заданные сроки объекта/этапа и фильтрацию по скрытым работам" time="0.009329" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Завершённые скрываются явно; краткий вид не оставляет пустые ветки" time="0.008525" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Снятие фильтра периода возвращает все строки, включая непересекающиеся" time="0.003908" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Пустые ветки показываются по своим срокам; занятые ветки без подходящих работ скрыты" time="0.003321" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Печать А3/А4 и каждый шрифт: размеры и непрерывные адаптивные окна" time="0.048056" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\gantt.test.js"/>
+	<testcase name="Каждый защитный предел включителен; +1 запрещён и не изменяет данные" time="0.006647" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\limits.test.js"/>
+	<testcase name="Старое превышение можно уменьшать, но нельзя сохранять неизменным, наращивать или создавать новое" time="0.000798" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\limits.test.js"/>
+	<testcase name="Реальные 100/101 объектов: строгий импорт, допускается только локальное уменьшение старой базы" time="0.108909" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\limits.test.js"/>
+	<testcase name="Реальный JSON свыше 20 МиБ отклонён; уменьшение без обрезания истории разрешено" time="1.228841" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\limits.test.js"/>
+	<testcase name="Инженерный минимум ТЗ валиден и сохраняется при цикле JSON" time="3.262371" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\limits.test.js"/>
+	<!-- tests 75 -->
+	<!-- suites 0 -->
+	<!-- pass 75 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 5592.4581 -->
+</testsuites>

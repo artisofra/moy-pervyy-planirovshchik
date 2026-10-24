@@ -22,12 +22,13 @@ export function guardTree(root) {
     }
   }
 }
-function validateFileData(file) {
+function validateFileData(file, {previous=null}={}) {
   guardTree(file);
   if (file?.format !== 'construction-resource-planner') throw Error('Это не файл плана строительных работ.');
   if (file.schemaVersion !== 1) throw Error('Версия формата не поддерживается. Нужен формат 1 или обновление приложения.');
-  validateSchema(file, schema);
-  D.validate({ projects: file.projects, deletedProjectMarkers: file.deletedProjectMarkers, settings: file.exportedBy });
+  validateSchema(file, schema, schema, '', {relaxCollectionLimits:!!previous});
+  // Весь исходный файл уже проверен схемой выше; дальше — прикладные правила и суммарные пределы.
+  D.validate({ projects: file.projects, deletedProjectMarkers: file.deletedProjectMarkers, settings: file.exportedBy },{previous,schemaChecked:true});
   const ids = new Set();
   for (const project of file.projects) {
     for (const id of flatten(project).keys()) {
@@ -52,11 +53,11 @@ function validateFileData(file) {
   for (const m of file.deletedProjectMarkers) {
     if (markers.has(m.id) || ids.has(m.id)) throw Error('Повторная или противоречивая отметка удаления'); markers.add(m.id);
   }
-  if (new TextEncoder().encode(JSON.stringify(file)).length > MAX_BYTES) throw Error('Файл превышает 20 МиБ.');
+  if (!previous && new TextEncoder().encode(JSON.stringify(file)).length > MAX_BYTES) throw Error('Файл превышает 20 МиБ.');
   return file;
 }
-export function validateFile(file) {
-  try { return validateFileData(file); }
+export function validateFile(file,options) {
+  try { return validateFileData(file,options); }
   catch (error) {
     const match = /^(projects(?:\.[^:]+)?): (.+)$/.exec(error.message);
     if (match) {
@@ -170,7 +171,7 @@ export function prepareImport(state, file, choices, mode = 'merge') {
   next.deletedProjectMarkers = mode === 'restore' ? structuredClone(file.deletedProjectMarkers) : mergeMarkers([...state.deletedProjectMarkers, ...file.deletedProjectMarkers], next.projects);
   if (!next.projects.some(p => p.id === next.demoId)) next.demoId = null;
   // Проверяем весь конечный набор, включая неизменяемые объекты получателя.
-  validateFile(D.envelope(next.projects, next.deletedProjectMarkers, next.settings));
+  validateFile(D.envelope(next.projects, next.deletedProjectMarkers, next.settings),{previous:state});
   const meta = metadata(next);
   for (const row of rows) if (mode === 'restore' || row.status === 'same' || applied.some(a => a.id === row.id)) {
     const p = next.projects.find(p => p.id === row.id); if (p) meta.exportedRevisions[p.id] = p.revisionId;
@@ -264,5 +265,5 @@ export function deleteEntity(state, projectId, entityId, time = D.now()) {
     if (f.type === 'payment') f.parent.payments = f.parent.payments.filter(e => e.id !== entityId);
     D.record(original, p, state.settings, 'delete');
   }
-  D.validate(next); return next;
+  D.validate(next,{previous:state}); return next;
 }

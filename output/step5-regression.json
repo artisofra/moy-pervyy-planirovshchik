@@ -1,0 +1,79 @@
+{
+  "completedOn": "2026-10-24",
+  "generatedAt": "2026-10-24T14:41:03.724Z",
+  "releaseVersion": "77d23eb34b7226222f5c",
+  "total": 142,
+  "note": "Сводка последних успешных результатов каждого набора. После исправлений D01–D04 повторены все наборы, включая 17 новых регрессионных сценариев.",
+  "results": [
+    {
+      "suite": "browser",
+      "status": 0,
+      "scenarios": 16,
+      "source": "output/step1-browser-results.json",
+      "modifiedAt": "2026-10-24T14:33:05.979Z"
+    },
+    {
+      "suite": "browser-deep",
+      "status": 0,
+      "scenarios": 7,
+      "source": "output/step1-deep-results.json",
+      "modifiedAt": "2026-10-24T14:33:17.170Z"
+    },
+    {
+      "suite": "finance-browser",
+      "status": 0,
+      "scenarios": 12,
+      "source": "output/step2-browser-results.json",
+      "modifiedAt": "2026-10-24T14:33:24.725Z"
+    },
+    {
+      "suite": "files-browser",
+      "status": 0,
+      "scenarios": 24,
+      "source": "output/step3-browser-results.json",
+      "modifiedAt": "2026-10-24T14:33:45.286Z"
+    },
+    {
+      "suite": "gantt-browser",
+      "status": 0,
+      "scenarios": 21,
+      "source": "output/step4-browser-results.json",
+      "modifiedAt": "2026-10-24T14:34:00.446Z"
+    },
+    {
+      "suite": "print-options-browser",
+      "status": 0,
+      "scenarios": 22,
+      "source": "output/compact-browser-results.json",
+      "modifiedAt": "2026-10-24T14:34:11.835Z"
+    },
+    {
+      "suite": "offline-browser",
+      "status": 0,
+      "scenarios": 13,
+      "source": "output/step5-offline-results.json",
+      "modifiedAt": "2026-10-24T14:34:46.136Z"
+    },
+    {
+      "suite": "acceptance-browser",
+      "status": 0,
+      "scenarios": 9,
+      "source": "output/step5-acceptance-results.json",
+      "modifiedAt": "2026-10-24T14:35:34.959Z"
+    },
+    {
+      "suite": "journey-browser",
+      "status": 0,
+      "scenarios": 1,
+      "source": "output/step5-journey-results.json",
+      "modifiedAt": "2026-10-24T14:35:43.668Z"
+    },
+    {
+      "suite": "audit-block1-browser",
+      "status": 0,
+      "scenarios": 17,
+      "source": "output/audit-block1-results.json",
+      "modifiedAt": "2026-10-24T14:36:02.178Z"
+    }
+  ]
+}

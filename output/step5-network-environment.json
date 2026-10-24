@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24",
+  "sourceContainsExternalScript": false,
+  "browserNavigationResponseContainsInjectedScript": true,
+  "injectedScriptHost": "gc.kis.v2.scr.kaspersky-labs.com",
+  "initiator": "HTML parser of locally modified navigation response",
+  "verification": "Compared index.html on disk with response.text() and DOM script URLs in isolated Chrome; external requests aborted during diagnosis.",
+  "acceptanceIsolation": "Navigation index.html fulfilled from unchanged local delivery source. App scripts, storage and UI remain real; external attempts are blocked and asserted absent. Ordinary regression and offline suites use normal serving.",
+  "antivirusSettingsChanged": false
+}

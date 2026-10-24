@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-24",
+  "browser": "155.0.8059.85",
+  "isolatedProfile": true,
+  "results": [
+    {
+      "id": "work-collapse",
+      "buttons": [
+        "Изменить",
+        "Удалить навсегда",
+        "↑",
+        "↓",
+        "Ресурс и платежи",
+        "Удалить ресурс",
+        "+ Добавить ресурс"
+      ],
+      "workIsDetails": false
+    },
+    {
+      "id": "work-order-after-edit",
+      "visible": [
+        "Вторая",
+        "Первая"
+      ],
+      "stored": [
+        {
+          "name": "Вторая",
+          "sortOrder": 1
+        },
+        {
+          "name": "Первая",
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "gantt-order",
+      "visible": [
+        "Первая",
+        "Вторая"
+      ]
+    },
+    {
+      "id": "payment-error",
+      "general": "Платёж: Введите целое неотрицательное число",
+      "inlineErrors": 0,
+      "invalidInputs": 0,
+      "paymentLabelId": null
+    },
+    {
+      "id": "payment-list",
+      "rows": 1001,
+      "moreButtons": 0,
+      "elapsedMs": 5524
+    },
+    {
+      "id": "import-array-order",
+      "visible": [
+        "Вторая",
+        "Первая"
+      ]
+    },
+    {
+      "id": "gantt-filters",
+      "badge": [
+        "Фильтры Ганта включены"
+      ],
+      "context": "24.10.2026 — 23.11.2026 · 1 объектов · 4 строк · Период по срокам объектов и дочерних записей"
+    },
+    {
+      "id": "resource-created-order",
+      "visible": [
+        "Позже",
+        "Раньше"
+      ]
+    },
+    {
+      "id": "payment-created-order",
+      "visible": [
+        "Поздний платёж",
+        "Ранний платёж"
+      ]
+    },
+    {
+      "id": "touch-target-own",
+      "rect": {
+        "width": 770,
+        "height": 30
+      },
+      "unitHints": null
+    },
+    {
+      "id": "unsupported-offline-status",
+      "before": "Для работы без интернета и установки откройте HTTPS-адрес или localhost.",
+      "after": "Офлайн пока не подготовлен",
+      "retryVisible": true
+    }
+  ]
+}

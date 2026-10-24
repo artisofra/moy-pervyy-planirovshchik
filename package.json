@@ -3,9 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/domain.test.js tests/finance.test.js tests/exchange.test.js tests/gantt.test.js",
+    "test": "node --test tests/domain.test.js tests/finance.test.js tests/exchange.test.js tests/gantt.test.js tests/limits.test.js",
     "start": "node tools/serve.js",
-    "test:browser": "node tests/browser.cjs"
+    "test:browser": "node tools/test-browser.cjs",
+    "test:release": "node --test tests/release.test.js",
+    "release": "node tools/release.js"
   },
   "devDependencies": {
     "playwright": "^1.62.1"

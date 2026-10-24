@@ -1,6 +1,9 @@
 import schema from './schema-data.js';
 import {validateSchema} from './schema-validator.js';
 export const CATEGORIES={materials:'Материалы',labor:'Рабочие',contract_services:'Подрядные работы и услуги',equipment_tools:'Техника и инструмент'};
+export const byOrder=items=>[...items].sort((a,b)=>a.sortOrder-b.sortOrder||a.id.localeCompare(b.id));
+export const byCreation=items=>[...items].sort((a,b)=>Date.parse(a.createdAt)-Date.parse(b.createdAt)||a.id.localeCompare(b.id));
+export const nextOrder=items=>items.reduce((max,item)=>Math.max(max,item.sortOrder),-1)+1;
 export const WORK_STATUS={not_started:'Не начата',in_progress:'В работе',completed:'Завершена',paused:'Приостановлена'};
 export const SUPPLY={not_ordered:'Не заказано',ordered:'Заказано',received:'Получено'};
 export const uuid=()=>{
@@ -26,8 +29,8 @@ export function total(p,archive=false){return !archive&&p.archivedAt?0:sum(resou
 export const allocated=r=>sum(r.payments.map(p=>p.amountRub));
 export function base(name=''){const t=now();return{id:uuid(),name,comment:'',createdAt:t,updatedAt:t};}
 export function project(name=''){return{...base(name),startDate:today(),endDate:addDays(today(),30),archivedAt:null,revisionId:uuid(),ancestorRevisionIds:[],stages:[],generalExpenses:[],history:[]};}
-export function stage(p,name=''){return{...base(name),startDate:p.startDate,endDate:p.endDate,archivedAt:null,sortOrder:p.stages.length,works:[]};}
-export function work(s,name=''){return{...base(name),startDate:s.startDate,endDate:s.endDate,status:'not_started',sortOrder:s.works.length,resources:[]};}
+export function stage(p,name=''){return{...base(name),startDate:p.startDate,endDate:p.endDate,archivedAt:null,sortOrder:nextOrder(p.stages),works:[]};}
+export function work(s,name=''){return{...base(name),startDate:s.startDate,endDate:s.endDate,status:'not_started',sortOrder:nextOrder(s.works),resources:[]};}
 export function resource(parent,name=''){return{...base(name),category:'materials',quantityHundredths:100,unit:'шт.',unitPriceRub:0,requiredDate:parent.startDate,status:'not_ordered',supplier:'',isOwnEquipment:false,payments:[]};}
 export function payment(r,amount){return{...base('Оплата'),amountRub:amount,plannedDate:r.requiredDate,status:'planned',paidDate:null,autoManaged:true};}
 export function syncPayments(r){if(r.isOwnEquipment){r.unitPriceRub=0;r.payments=[];return;}const c=cost(r);if(r.payments.length===1&&r.payments[0].autoManaged&&r.payments[0].status==='planned'){if(c)r.payments[0].amountRub=c;else r.payments=[];}else if(!r.payments.length&&c)r.payments=[payment(r,c)];}
@@ -43,8 +46,24 @@ export function record(before,after,actor,action='update'){
 }
 export function demo(){const p=project('Пример — Сосны');const month=today().slice(0,7);p.startDate=month+'-01';p.endDate=addDays(month+'-01',27);const s=stage(p,'Фундамент');p.stages.push(s);const w=work(s,'Подготовка основания');s.works.push(w);for(const [category,name,price]of [['materials','Бетон М300',6500],['labor','Бригада',18000],['contract_services','Доставка',5000],['equipment_tools','Свой генератор',0]]){const r=resource(w,name);r.category=category;r.unitPriceRub=price;r.isOwnEquipment=category==='equipment_tools';syncPayments(r);w.resources.push(r);}const r=w.resources[0];r.payments=[{...payment(r,2000),name:'Аванс',status:'paid',paidDate:today(),autoManaged:false},{...payment(r,4500),name:'Остаток',autoManaged:false}];const s2=stage(p,'Стены');p.stages.push(s2);s2.works.push(work(s2,'Кладка стен'));record(null,p,{},'create');return p;}
 function fail(path,message){const e=Error(message);e.path=path;throw e;}
-export function validate(state){
- validateSchema(envelope(state.projects,state.deletedProjectMarkers,state.settings),schema);
+export const LIMITS={project:100,stage:1000,work:10000,resource:50000,payment:100000,history:50000,ancestor:100000,bytes:20*1024*1024};
+const LIMIT_NAMES={project:'объекты',stage:'этапы',work:'работы',resource:'ресурсы',payment:'платежи',history:'события истории',ancestor:'предки редакций',bytes:'размер полной копии (20 МиБ)'};
+export function protectionUsage(state){
+ const n={project:state.projects.length,stage:0,work:0,resource:0,payment:0,history:0,ancestor:0};
+ const add=r=>{n.resource++;n.payment+=r.payments.length;};
+ for(const p of state.projects){n.stage+=p.stages.length;n.history+=p.history.length;n.ancestor+=p.ancestorRevisionIds.length;for(const s of p.stages){n.work+=s.works.length;for(const w of s.works)for(const r of w.resources)add(r);}p.generalExpenses.forEach(add);}
+ n.bytes=new TextEncoder().encode(JSON.stringify(envelope(state.projects,state.deletedProjectMarkers,state.settings))).length;return n;
+}
+export function checkProtection(next,previous=null){
+ const excess=Object.keys(LIMITS).filter(k=>next[k]>LIMITS[k]);if(!excess.length)return;
+ const reduced=previous&&Object.keys(LIMITS).some(k=>previous[k]>LIMITS[k]&&next[k]<previous[k]);
+ if(previous&&reduced&&excess.every(k=>previous[k]>LIMITS[k]&&next[k]<=previous[k]))return;
+ const e=Error('Превышен предел: '+excess.map(k=>LIMIT_NAMES[k]).join(', ')+'. Скачайте отдельные объекты и удалите ненужные записи. История автоматически не сокращается.');e.code='LIMIT';throw e;
+}
+export function validate(state,{previous=null,schemaChecked=false}={}){
+ // Количества проверяются суммарно ниже. Остальная схема всегда строгая.
+ const file=envelope(state.projects,state.deletedProjectMarkers,state.settings);
+ if(!schemaChecked)validateSchema(file,schema,schema,'',{relaxCollectionLimits:true});
  const counts={project:0,stage:0,work:0,resource:0,payment:0,history:0,ancestor:0},ids=new Set();let all=0n,allPayments=0n;
  function check(e,type,path){counts[type]++;if(!/^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i.test(e.id)||ids.has(e.id))fail(path,'Некорректный или повторный ID');ids.add(e.id);if(typeof e.name!=='string'||!e.name.trim()||e.name!==e.name.trim()||e.name.length>120)fail('name','Название: от 1 до 120 символов');if(typeof e.comment!=='string'||e.comment.length>4000)fail('comment','Комментарий: до 4000 символов');for(const key of ['createdAt','updatedAt'])if(!e[key]||!Number.isFinite(Date.parse(e[key])))fail(path,'Некорректное время записи');
  if(['project','stage','work'].includes(type)){if(!dateValid(e.startDate)||!dateValid(e.endDate)||e.endDate<e.startDate)fail('endDate','Окончание не раньше начала; укажите корректные даты');}
@@ -55,8 +74,7 @@ export function validate(state){
  if(type==='payment'){try{integer(e.amountRub);}catch(err){fail('amountRub',err.message);}if(e.amountRub===0)fail('amountRub','Сумма платежа должна быть больше нуля');if(!dateValid(e.plannedDate))fail('plannedDate','Укажите дату оплаты');if(!['planned','paid'].includes(e.status)||(e.status==='paid'?!dateValid(e.paidDate):e.paidDate!==null))fail('paidDate','Проверьте статус и фактическую дату');if(typeof e.autoManaged!=='boolean'||e.autoManaged&&e.status!=='planned')fail(path,'Некорректный автоматический платёж');allPayments+=BigInt(e.amountRub);}}
  const checkEntity=(entity,type)=>{try{check(entity,type,entity.name);}catch(error){error.entityId=entity.id;throw error;}};
  for(const p of state.projects){checkEntity(p,'project');counts.history+=p.history.length;counts.ancestor+=p.ancestorRevisionIds.length;for(const s of p.stages){checkEntity(s,'stage');for(const w of s.works){checkEntity(w,'work');for(const r of w.resources){checkEntity(r,'resource');for(const pay of r.payments)checkEntity(pay,'payment');}}}for(const r of p.generalExpenses){checkEntity(r,'resource');for(const pay of r.payments)checkEntity(pay,'payment');}}
- if(all>BigInt(Number.MAX_SAFE_INTEGER)||allPayments>BigInt(Number.MAX_SAFE_INTEGER))fail('','Общая сумма превышает безопасный предел');const caps={project:100,stage:1000,work:10000,resource:50000,payment:100000,history:50000,ancestor:100000};for(const k in caps)if(counts[k]>caps[k])fail('',`Превышен предел записей: ${k}`);
- const file=envelope(state.projects,state.deletedProjectMarkers,state.settings);validateSchema(file,schema);
- if(new TextEncoder().encode(JSON.stringify(file)).length>20*1024*1024)fail('','Полная копия превышает 20 МиБ');return true;
+ if(all>BigInt(Number.MAX_SAFE_INTEGER)||allPayments>BigInt(Number.MAX_SAFE_INTEGER))fail('','Общая сумма превышает безопасный предел');
+ checkProtection({...counts,bytes:new TextEncoder().encode(JSON.stringify(file)).length},previous?protectionUsage(previous):null);return true;
 }
 export function envelope(projects,markers=[],actor={}){return{format:'construction-resource-planner',schemaVersion:1,exportId:uuid(),exportKind:'all',exportedAt:now(),exportedBy:{name:actor.name||'',role:actor.role||'unspecified'},currency:'RUB',projects,deletedProjectMarkers:markers};}

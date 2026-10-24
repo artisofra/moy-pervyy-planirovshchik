@@ -1,9 +1,9 @@
-import {WORK_STATUS,today,addDays,dateValid,duration} from './domain.js';
+import {WORK_STATUS,today,addDays,dateValid,duration,byOrder} from './domain.js';
 
 export const SCALES={days:'Дни',weeks:'Недели',months:'Месяцы'};
 export const dayNumber=date=>Math.floor(Date.parse(date+'T12:00:00Z')/86400000);
 const dateAt=n=>new Date(n*86400000).toISOString().slice(0,10);
-const ordered=items=>[...items].sort((a,b)=>a.sortOrder-b.sortOrder||a.id.localeCompare(b.id));
+const ordered=byOrder;
 export const defaultGanttFilters=()=>({projectIds:null,statusIds:Object.keys(WORK_STATUS),includeArchive:false,start:'',end:'',scale:'weeks',onlyPeriod:true,detail:'full'});
 
 export function selectGanttRows(source,start,end,{onlyPeriod=true,detail='full',excludeCompleted=false,collapsed=new Set()}={}){
