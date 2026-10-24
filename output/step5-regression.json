@@ -1,86 +1,93 @@
 {
   "completedOn": "2026-10-24",
-  "generatedAt": "2026-10-24T15:23:22.119Z",
-  "releaseVersion": "0bb4166c0d7a8a2a4490",
-  "total": 151,
-  "note": "Сводка последних успешных результатов каждого набора. После исправлений D05–D09 повторены все наборы, включая 9 новых регрессионных сценариев.",
+  "generatedAt": "2026-10-24T17:14:25.036Z",
+  "releaseVersion": "ced86dbe65c948acf977",
+  "total": 161,
+  "note": "Сводка последних успешных результатов каждого набора. После исправления ручного ввода года повторены все наборы; добавлены 10 сценариев посимвольного ввода дат во всех разделах.",
   "results": [
     {
       "suite": "browser",
       "status": 0,
       "scenarios": 16,
       "source": "output/step1-browser-results.json",
-      "modifiedAt": "2026-10-24T15:19:15.957Z"
+      "modifiedAt": "2026-10-24T17:09:27.711Z"
     },
     {
       "suite": "browser-deep",
       "status": 0,
       "scenarios": 7,
       "source": "output/step1-deep-results.json",
-      "modifiedAt": "2026-10-24T15:19:27.188Z"
+      "modifiedAt": "2026-10-24T17:09:47.914Z"
     },
     {
       "suite": "finance-browser",
       "status": 0,
       "scenarios": 12,
       "source": "output/step2-browser-results.json",
-      "modifiedAt": "2026-10-24T15:19:35.220Z"
+      "modifiedAt": "2026-10-24T17:09:56.429Z"
     },
     {
       "suite": "files-browser",
       "status": 0,
       "scenarios": 24,
       "source": "output/step3-browser-results.json",
-      "modifiedAt": "2026-10-24T15:20:02.749Z"
+      "modifiedAt": "2026-10-24T17:10:28.396Z"
     },
     {
       "suite": "gantt-browser",
       "status": 0,
       "scenarios": 21,
       "source": "output/step4-browser-results.json",
-      "modifiedAt": "2026-10-24T15:20:23.972Z"
+      "modifiedAt": "2026-10-24T17:10:46.577Z"
     },
     {
       "suite": "print-options-browser",
       "status": 0,
       "scenarios": 22,
       "source": "output/compact-browser-results.json",
-      "modifiedAt": "2026-10-24T15:20:41.461Z"
+      "modifiedAt": "2026-10-24T17:10:57.990Z"
     },
     {
       "suite": "offline-browser",
       "status": 0,
       "scenarios": 13,
       "source": "output/step5-offline-results.json",
-      "modifiedAt": "2026-10-24T15:21:18.421Z"
+      "modifiedAt": "2026-10-24T17:11:31.672Z"
     },
     {
       "suite": "acceptance-browser",
       "status": 0,
       "scenarios": 9,
       "source": "output/step5-acceptance-results.json",
-      "modifiedAt": "2026-10-24T15:22:16.406Z"
+      "modifiedAt": "2026-10-24T17:12:22.841Z"
     },
     {
       "suite": "journey-browser",
       "status": 0,
       "scenarios": 1,
       "source": "output/step5-journey-results.json",
-      "modifiedAt": "2026-10-24T15:22:25.541Z"
+      "modifiedAt": "2026-10-24T17:12:32.388Z"
     },
     {
       "suite": "audit-block1-browser",
       "status": 0,
       "scenarios": 17,
       "source": "output/audit-block1-results.json",
-      "modifiedAt": "2026-10-24T15:22:46.136Z"
+      "modifiedAt": "2026-10-24T17:12:53.510Z"
     },
     {
       "suite": "audit-block2-browser",
       "status": 0,
       "scenarios": 9,
       "source": "output/audit-block2-results.json",
-      "modifiedAt": "2026-10-24T15:22:56.071Z"
+      "modifiedAt": "2026-10-24T17:13:04.355Z"
+    },
+    {
+      "suite": "date-keyboard-browser",
+      "status": 0,
+      "scenarios": 10,
+      "source": "output/date-keyboard-results.json",
+      "modifiedAt": "2026-10-24T17:13:21.038Z"
     }
   ]
 }

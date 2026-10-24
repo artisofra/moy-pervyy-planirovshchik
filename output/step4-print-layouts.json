@@ -8,12 +8,12 @@
         "end": "2026-11-07",
         "vertical": 1,
         "ids": [
-          "55cf4957-458c-4c8a-9fcb-bfc6c70eff19",
-          "a9947450-dad4-4c6e-8657-2beefdad6bfc",
-          "4d89b6c1-c2dd-4306-82b8-1f5ed976837d",
-          "6f6cef0b-f91d-46c8-a5e7-5999ecb8695f",
-          "4bfa7c2e-86fe-4218-9284-c7c66ab3ed7d",
-          "1e858bf3-5330-4e7b-a265-1c68772f73dc"
+          "85fa59f6-b68f-4baf-b572-63eeee193f60",
+          "bf699445-9ab2-4737-9a60-1631a09574df",
+          "2aeeb8c7-3f55-4659-ab9c-fdfebf63136a",
+          "653d1b4b-6166-4ba1-bd57-e37ea12689a5",
+          "b05fd49e-8469-4b10-abd4-fa7ee5b7d782",
+          "815aeccd-8a16-4f20-b4cd-9bb6aa5c3a57"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -28,49 +28,49 @@
     "sourceRows": 6,
     "rows": [
       {
-        "id": "55cf4957-458c-4c8a-9fcb-bfc6c70eff19",
+        "id": "85fa59f6-b68f-4baf-b572-63eeee193f60",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "a9947450-dad4-4c6e-8657-2beefdad6bfc",
+        "id": "bf699445-9ab2-4737-9a60-1631a09574df",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "55cf4957-458c-4c8a-9fcb-bfc6c70eff19"
+          "85fa59f6-b68f-4baf-b572-63eeee193f60"
         ]
       },
       {
-        "id": "4d89b6c1-c2dd-4306-82b8-1f5ed976837d",
+        "id": "2aeeb8c7-3f55-4659-ab9c-fdfebf63136a",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "55cf4957-458c-4c8a-9fcb-bfc6c70eff19",
-          "a9947450-dad4-4c6e-8657-2beefdad6bfc"
+          "85fa59f6-b68f-4baf-b572-63eeee193f60",
+          "bf699445-9ab2-4737-9a60-1631a09574df"
         ]
       },
       {
-        "id": "6f6cef0b-f91d-46c8-a5e7-5999ecb8695f",
+        "id": "653d1b4b-6166-4ba1-bd57-e37ea12689a5",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "4bfa7c2e-86fe-4218-9284-c7c66ab3ed7d",
+        "id": "b05fd49e-8469-4b10-abd4-fa7ee5b7d782",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "6f6cef0b-f91d-46c8-a5e7-5999ecb8695f"
+          "653d1b4b-6166-4ba1-bd57-e37ea12689a5"
         ]
       },
       {
-        "id": "1e858bf3-5330-4e7b-a265-1c68772f73dc",
+        "id": "815aeccd-8a16-4f20-b4cd-9bb6aa5c3a57",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "6f6cef0b-f91d-46c8-a5e7-5999ecb8695f",
-          "4bfa7c2e-86fe-4218-9284-c7c66ab3ed7d"
+          "653d1b4b-6166-4ba1-bd57-e37ea12689a5",
+          "b05fd49e-8469-4b10-abd4-fa7ee5b7d782"
         ]
       }
     ]
@@ -84,21 +84,21 @@
         "end": "2026-12-01",
         "vertical": 1,
         "ids": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52",
-          "df4e2a84-62e5-4969-a598-6a65ab7e4c71",
-          "dda7a433-b2dd-48b9-8975-c445f5d31e7c",
-          "b1251226-7193-4c19-9a57-eeee8f18da90",
-          "a541d4a1-366a-46ab-b840-3bc2c69c6a1b",
-          "44d57bff-6f0d-49c4-894c-2d1feee75e9c",
-          "67ef2c25-1bf6-4153-9452-9c88a8d3a11a",
-          "8b2fdd3d-c1b3-4472-ac83-86fbde1f4aaa",
-          "11afbdfd-12e6-4f2f-b504-829973621fa8",
-          "8e0e04f2-ce1c-473c-bab3-c9bbe4b9bceb",
-          "254381a7-3e7f-4a14-b47b-6f5dac7e44ac",
-          "d83ffa05-b23d-4312-99d1-0500223613ab",
-          "7974e2d7-bf6e-4295-9a95-2996be7b81ed",
-          "d24d171e-68c0-450e-b0e5-844411252936"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968",
+          "497173ab-20a6-405f-bbdf-b1e6df32c0e6",
+          "7fd28e65-28da-4e8c-ba5a-cfd8d050744a",
+          "1481b7f7-a5f7-461c-8f0a-bd4ac95fdcd7",
+          "bf61fd99-fc86-43f3-9f64-a06ba6f8c39b",
+          "bdc6de38-4823-4af5-84fc-3732add900e5",
+          "ce25e328-40c3-4aeb-aef8-8334ee1de436",
+          "583ce21f-87c1-4930-8aea-379ffeaf333b",
+          "c157eade-6d3c-4f8b-9f7c-f5ddb7c24a2e",
+          "a1883e0a-70ab-485f-a1e3-cc0aa5cd8a72",
+          "4c8444ca-c2ee-4b02-b5e2-09127f6264c2",
+          "15a314d7-25f6-4d45-9755-c54cc5063239",
+          "5cd6472f-0531-4fb2-8f99-3e5ce51e7db6",
+          "19dae329-946b-43c8-a06b-eefb57acd4f6"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -114,23 +114,23 @@
         "end": "2026-12-01",
         "vertical": 2,
         "ids": [
-          "a26ff90c-f5e2-4d97-8234-08ee12b9be3d",
-          "91b767c9-693e-48ef-8705-f7baaeb2dc02",
-          "b47249dd-c6f4-4e76-bea6-745230b12d46",
-          "f48d570e-0d42-479c-b335-850e50cfe2f9",
-          "a9b0bac0-58d0-4234-bbbd-21fb0aad49b5",
-          "7b6867bc-e3bb-4c1c-830c-87745909863c",
-          "95d2a3d7-d871-45e2-8b9f-8deabbc0f76d",
-          "978a03e3-3820-4857-8442-1dd2ac0ac73d",
-          "697484d7-3de7-4f38-9e5b-4230d5993f4f",
-          "def46523-6a77-45f6-8599-9ac60a077d6e",
-          "9d10bf02-013d-4401-8e78-997993311d62",
-          "667470a0-eefe-48f3-b2cd-e4917c93c0f3",
-          "6e427c61-a25f-43a2-840a-45bbbbfcc118"
+          "dc491528-6594-4134-bd74-7a526d9fa4cb",
+          "a69565d1-8145-48fc-89b8-59cffa69424a",
+          "6519d175-01f9-4292-afbb-ea91b1fabcd5",
+          "e5f28161-a165-4e22-8784-6fb26b457590",
+          "50c42ffb-686f-44e2-977b-20c036e61a06",
+          "d44312ee-00de-41ed-bc48-2e08d6240189",
+          "ce6a2708-b33b-4221-8aee-7ef56024e28e",
+          "026ce3a4-7e29-4847-b264-1c76135da0e6",
+          "4d784c66-0484-4ae0-a8be-e6c5ba3fd3d8",
+          "df472ce3-b743-496f-bd8c-5fe48da52caf",
+          "955090b8-6f96-413c-af26-f7888122470d",
+          "58cb8df4-722c-43b7-8cda-b00a7091a2f3",
+          "317a7f25-862b-482d-a7fd-0526cf9dc0cc"
         ],
         "repeated": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -145,9 +145,9 @@
         "end": "2026-12-01",
         "vertical": 3,
         "ids": [
-          "fbc82a6d-89f2-4741-ada9-5dbc578d7242",
-          "dd65fe96-7ce9-47c3-8ad3-5ea573cfc86e",
-          "42f188c9-709a-442c-9d3c-8c38f6ba8459"
+          "c2685e2f-9654-49ce-884d-3bd1c6d4224b",
+          "ee4c313d-3ad4-4258-b61b-447d8f98f7e2",
+          "3a580384-6f1d-4681-9aa6-bea1c41b7a09"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -163,21 +163,21 @@
         "end": "2027-01-01",
         "vertical": 1,
         "ids": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52",
-          "df4e2a84-62e5-4969-a598-6a65ab7e4c71",
-          "dda7a433-b2dd-48b9-8975-c445f5d31e7c",
-          "b1251226-7193-4c19-9a57-eeee8f18da90",
-          "a541d4a1-366a-46ab-b840-3bc2c69c6a1b",
-          "44d57bff-6f0d-49c4-894c-2d1feee75e9c",
-          "67ef2c25-1bf6-4153-9452-9c88a8d3a11a",
-          "8b2fdd3d-c1b3-4472-ac83-86fbde1f4aaa",
-          "11afbdfd-12e6-4f2f-b504-829973621fa8",
-          "8e0e04f2-ce1c-473c-bab3-c9bbe4b9bceb",
-          "254381a7-3e7f-4a14-b47b-6f5dac7e44ac",
-          "d83ffa05-b23d-4312-99d1-0500223613ab",
-          "7974e2d7-bf6e-4295-9a95-2996be7b81ed",
-          "d24d171e-68c0-450e-b0e5-844411252936"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968",
+          "497173ab-20a6-405f-bbdf-b1e6df32c0e6",
+          "7fd28e65-28da-4e8c-ba5a-cfd8d050744a",
+          "1481b7f7-a5f7-461c-8f0a-bd4ac95fdcd7",
+          "bf61fd99-fc86-43f3-9f64-a06ba6f8c39b",
+          "bdc6de38-4823-4af5-84fc-3732add900e5",
+          "ce25e328-40c3-4aeb-aef8-8334ee1de436",
+          "583ce21f-87c1-4930-8aea-379ffeaf333b",
+          "c157eade-6d3c-4f8b-9f7c-f5ddb7c24a2e",
+          "a1883e0a-70ab-485f-a1e3-cc0aa5cd8a72",
+          "4c8444ca-c2ee-4b02-b5e2-09127f6264c2",
+          "15a314d7-25f6-4d45-9755-c54cc5063239",
+          "5cd6472f-0531-4fb2-8f99-3e5ce51e7db6",
+          "19dae329-946b-43c8-a06b-eefb57acd4f6"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -193,23 +193,23 @@
         "end": "2027-01-01",
         "vertical": 2,
         "ids": [
-          "a26ff90c-f5e2-4d97-8234-08ee12b9be3d",
-          "91b767c9-693e-48ef-8705-f7baaeb2dc02",
-          "b47249dd-c6f4-4e76-bea6-745230b12d46",
-          "f48d570e-0d42-479c-b335-850e50cfe2f9",
-          "a9b0bac0-58d0-4234-bbbd-21fb0aad49b5",
-          "7b6867bc-e3bb-4c1c-830c-87745909863c",
-          "95d2a3d7-d871-45e2-8b9f-8deabbc0f76d",
-          "978a03e3-3820-4857-8442-1dd2ac0ac73d",
-          "697484d7-3de7-4f38-9e5b-4230d5993f4f",
-          "def46523-6a77-45f6-8599-9ac60a077d6e",
-          "9d10bf02-013d-4401-8e78-997993311d62",
-          "667470a0-eefe-48f3-b2cd-e4917c93c0f3",
-          "6e427c61-a25f-43a2-840a-45bbbbfcc118"
+          "dc491528-6594-4134-bd74-7a526d9fa4cb",
+          "a69565d1-8145-48fc-89b8-59cffa69424a",
+          "6519d175-01f9-4292-afbb-ea91b1fabcd5",
+          "e5f28161-a165-4e22-8784-6fb26b457590",
+          "50c42ffb-686f-44e2-977b-20c036e61a06",
+          "d44312ee-00de-41ed-bc48-2e08d6240189",
+          "ce6a2708-b33b-4221-8aee-7ef56024e28e",
+          "026ce3a4-7e29-4847-b264-1c76135da0e6",
+          "4d784c66-0484-4ae0-a8be-e6c5ba3fd3d8",
+          "df472ce3-b743-496f-bd8c-5fe48da52caf",
+          "955090b8-6f96-413c-af26-f7888122470d",
+          "58cb8df4-722c-43b7-8cda-b00a7091a2f3",
+          "317a7f25-862b-482d-a7fd-0526cf9dc0cc"
         ],
         "repeated": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -224,9 +224,9 @@
         "end": "2027-01-01",
         "vertical": 3,
         "ids": [
-          "fbc82a6d-89f2-4741-ada9-5dbc578d7242",
-          "dd65fe96-7ce9-47c3-8ad3-5ea573cfc86e",
-          "42f188c9-709a-442c-9d3c-8c38f6ba8459"
+          "c2685e2f-9654-49ce-884d-3bd1c6d4224b",
+          "ee4c313d-3ad4-4258-b61b-447d8f98f7e2",
+          "3a580384-6f1d-4681-9aa6-bea1c41b7a09"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -242,21 +242,21 @@
         "end": "2027-01-15",
         "vertical": 1,
         "ids": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52",
-          "df4e2a84-62e5-4969-a598-6a65ab7e4c71",
-          "dda7a433-b2dd-48b9-8975-c445f5d31e7c",
-          "b1251226-7193-4c19-9a57-eeee8f18da90",
-          "a541d4a1-366a-46ab-b840-3bc2c69c6a1b",
-          "44d57bff-6f0d-49c4-894c-2d1feee75e9c",
-          "67ef2c25-1bf6-4153-9452-9c88a8d3a11a",
-          "8b2fdd3d-c1b3-4472-ac83-86fbde1f4aaa",
-          "11afbdfd-12e6-4f2f-b504-829973621fa8",
-          "8e0e04f2-ce1c-473c-bab3-c9bbe4b9bceb",
-          "254381a7-3e7f-4a14-b47b-6f5dac7e44ac",
-          "d83ffa05-b23d-4312-99d1-0500223613ab",
-          "7974e2d7-bf6e-4295-9a95-2996be7b81ed",
-          "d24d171e-68c0-450e-b0e5-844411252936"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968",
+          "497173ab-20a6-405f-bbdf-b1e6df32c0e6",
+          "7fd28e65-28da-4e8c-ba5a-cfd8d050744a",
+          "1481b7f7-a5f7-461c-8f0a-bd4ac95fdcd7",
+          "bf61fd99-fc86-43f3-9f64-a06ba6f8c39b",
+          "bdc6de38-4823-4af5-84fc-3732add900e5",
+          "ce25e328-40c3-4aeb-aef8-8334ee1de436",
+          "583ce21f-87c1-4930-8aea-379ffeaf333b",
+          "c157eade-6d3c-4f8b-9f7c-f5ddb7c24a2e",
+          "a1883e0a-70ab-485f-a1e3-cc0aa5cd8a72",
+          "4c8444ca-c2ee-4b02-b5e2-09127f6264c2",
+          "15a314d7-25f6-4d45-9755-c54cc5063239",
+          "5cd6472f-0531-4fb2-8f99-3e5ce51e7db6",
+          "19dae329-946b-43c8-a06b-eefb57acd4f6"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -272,23 +272,23 @@
         "end": "2027-01-15",
         "vertical": 2,
         "ids": [
-          "a26ff90c-f5e2-4d97-8234-08ee12b9be3d",
-          "91b767c9-693e-48ef-8705-f7baaeb2dc02",
-          "b47249dd-c6f4-4e76-bea6-745230b12d46",
-          "f48d570e-0d42-479c-b335-850e50cfe2f9",
-          "a9b0bac0-58d0-4234-bbbd-21fb0aad49b5",
-          "7b6867bc-e3bb-4c1c-830c-87745909863c",
-          "95d2a3d7-d871-45e2-8b9f-8deabbc0f76d",
-          "978a03e3-3820-4857-8442-1dd2ac0ac73d",
-          "697484d7-3de7-4f38-9e5b-4230d5993f4f",
-          "def46523-6a77-45f6-8599-9ac60a077d6e",
-          "9d10bf02-013d-4401-8e78-997993311d62",
-          "667470a0-eefe-48f3-b2cd-e4917c93c0f3",
-          "6e427c61-a25f-43a2-840a-45bbbbfcc118"
+          "dc491528-6594-4134-bd74-7a526d9fa4cb",
+          "a69565d1-8145-48fc-89b8-59cffa69424a",
+          "6519d175-01f9-4292-afbb-ea91b1fabcd5",
+          "e5f28161-a165-4e22-8784-6fb26b457590",
+          "50c42ffb-686f-44e2-977b-20c036e61a06",
+          "d44312ee-00de-41ed-bc48-2e08d6240189",
+          "ce6a2708-b33b-4221-8aee-7ef56024e28e",
+          "026ce3a4-7e29-4847-b264-1c76135da0e6",
+          "4d784c66-0484-4ae0-a8be-e6c5ba3fd3d8",
+          "df472ce3-b743-496f-bd8c-5fe48da52caf",
+          "955090b8-6f96-413c-af26-f7888122470d",
+          "58cb8df4-722c-43b7-8cda-b00a7091a2f3",
+          "317a7f25-862b-482d-a7fd-0526cf9dc0cc"
         ],
         "repeated": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -303,9 +303,9 @@
         "end": "2027-01-15",
         "vertical": 3,
         "ids": [
-          "fbc82a6d-89f2-4741-ada9-5dbc578d7242",
-          "dd65fe96-7ce9-47c3-8ad3-5ea573cfc86e",
-          "42f188c9-709a-442c-9d3c-8c38f6ba8459"
+          "c2685e2f-9654-49ce-884d-3bd1c6d4224b",
+          "ee4c313d-3ad4-4258-b61b-447d8f98f7e2",
+          "3a580384-6f1d-4681-9aa6-bea1c41b7a09"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -320,273 +320,273 @@
     "sourceRows": 31,
     "rows": [
       {
-        "id": "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
+        "id": "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "5a790804-8e18-4033-9ef1-aa4a68b93d52",
+        "id": "56ca2721-7100-4059-a828-dddac7aec968",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb"
         ]
       },
       {
-        "id": "df4e2a84-62e5-4969-a598-6a65ab7e4c71",
+        "id": "497173ab-20a6-405f-bbdf-b1e6df32c0e6",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "dda7a433-b2dd-48b9-8975-c445f5d31e7c",
+        "id": "7fd28e65-28da-4e8c-ba5a-cfd8d050744a",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "b1251226-7193-4c19-9a57-eeee8f18da90",
+        "id": "1481b7f7-a5f7-461c-8f0a-bd4ac95fdcd7",
         "name": "Работа 003",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "a541d4a1-366a-46ab-b840-3bc2c69c6a1b",
+        "id": "bf61fd99-fc86-43f3-9f64-a06ba6f8c39b",
         "name": "Работа 004",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "44d57bff-6f0d-49c4-894c-2d1feee75e9c",
+        "id": "bdc6de38-4823-4af5-84fc-3732add900e5",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "67ef2c25-1bf6-4153-9452-9c88a8d3a11a",
+        "id": "ce25e328-40c3-4aeb-aef8-8334ee1de436",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "8b2fdd3d-c1b3-4472-ac83-86fbde1f4aaa",
+        "id": "583ce21f-87c1-4930-8aea-379ffeaf333b",
         "name": "Работа 007",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "11afbdfd-12e6-4f2f-b504-829973621fa8",
+        "id": "c157eade-6d3c-4f8b-9f7c-f5ddb7c24a2e",
         "name": "Работа 008",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "8e0e04f2-ce1c-473c-bab3-c9bbe4b9bceb",
+        "id": "a1883e0a-70ab-485f-a1e3-cc0aa5cd8a72",
         "name": "Работа 009",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "254381a7-3e7f-4a14-b47b-6f5dac7e44ac",
+        "id": "4c8444ca-c2ee-4b02-b5e2-09127f6264c2",
         "name": "Работа 010",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "d83ffa05-b23d-4312-99d1-0500223613ab",
+        "id": "15a314d7-25f6-4d45-9755-c54cc5063239",
         "name": "Работа 011",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "7974e2d7-bf6e-4295-9a95-2996be7b81ed",
+        "id": "5cd6472f-0531-4fb2-8f99-3e5ce51e7db6",
         "name": "Работа 012",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "d24d171e-68c0-450e-b0e5-844411252936",
+        "id": "19dae329-946b-43c8-a06b-eefb57acd4f6",
         "name": "Работа 013",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "a26ff90c-f5e2-4d97-8234-08ee12b9be3d",
+        "id": "dc491528-6594-4134-bd74-7a526d9fa4cb",
         "name": "Работа 014",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "91b767c9-693e-48ef-8705-f7baaeb2dc02",
+        "id": "a69565d1-8145-48fc-89b8-59cffa69424a",
         "name": "Работа 015",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "b47249dd-c6f4-4e76-bea6-745230b12d46",
+        "id": "6519d175-01f9-4292-afbb-ea91b1fabcd5",
         "name": "Работа 016",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "f48d570e-0d42-479c-b335-850e50cfe2f9",
+        "id": "e5f28161-a165-4e22-8784-6fb26b457590",
         "name": "Работа 017",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "a9b0bac0-58d0-4234-bbbd-21fb0aad49b5",
+        "id": "50c42ffb-686f-44e2-977b-20c036e61a06",
         "name": "Работа 018",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "7b6867bc-e3bb-4c1c-830c-87745909863c",
+        "id": "d44312ee-00de-41ed-bc48-2e08d6240189",
         "name": "Работа 019",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "95d2a3d7-d871-45e2-8b9f-8deabbc0f76d",
+        "id": "ce6a2708-b33b-4221-8aee-7ef56024e28e",
         "name": "Работа 020",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "978a03e3-3820-4857-8442-1dd2ac0ac73d",
+        "id": "026ce3a4-7e29-4847-b264-1c76135da0e6",
         "name": "Работа 021",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "697484d7-3de7-4f38-9e5b-4230d5993f4f",
+        "id": "4d784c66-0484-4ae0-a8be-e6c5ba3fd3d8",
         "name": "Работа 022",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "def46523-6a77-45f6-8599-9ac60a077d6e",
+        "id": "df472ce3-b743-496f-bd8c-5fe48da52caf",
         "name": "Работа 023",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "9d10bf02-013d-4401-8e78-997993311d62",
+        "id": "955090b8-6f96-413c-af26-f7888122470d",
         "name": "Работа 024",
         "archived": false,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "5a790804-8e18-4033-9ef1-aa4a68b93d52"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "56ca2721-7100-4059-a828-dddac7aec968"
         ]
       },
       {
-        "id": "667470a0-eefe-48f3-b2cd-e4917c93c0f3",
+        "id": "58cb8df4-722c-43b7-8cda-b00a7091a2f3",
         "name": "Архивный этап",
         "archived": true,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb"
         ]
       },
       {
-        "id": "6e427c61-a25f-43a2-840a-45bbbbfcc118",
+        "id": "317a7f25-862b-482d-a7fd-0526cf9dc0cc",
         "name": "Архивная работа",
         "archived": true,
         "parentIds": [
-          "44a4ed9e-8adc-4f91-9bc3-75db9738ee13",
-          "667470a0-eefe-48f3-b2cd-e4917c93c0f3"
+          "ec4fed2e-218c-46ed-b844-e0460f74c6eb",
+          "58cb8df4-722c-43b7-8cda-b00a7091a2f3"
         ]
       },
       {
-        "id": "fbc82a6d-89f2-4741-ada9-5dbc578d7242",
+        "id": "c2685e2f-9654-49ce-884d-3bd1c6d4224b",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "dd65fe96-7ce9-47c3-8ad3-5ea573cfc86e",
+        "id": "ee4c313d-3ad4-4258-b61b-447d8f98f7e2",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "fbc82a6d-89f2-4741-ada9-5dbc578d7242"
+          "c2685e2f-9654-49ce-884d-3bd1c6d4224b"
         ]
       },
       {
-        "id": "42f188c9-709a-442c-9d3c-8c38f6ba8459",
+        "id": "3a580384-6f1d-4681-9aa6-bea1c41b7a09",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "fbc82a6d-89f2-4741-ada9-5dbc578d7242",
-          "dd65fe96-7ce9-47c3-8ad3-5ea573cfc86e"
+          "c2685e2f-9654-49ce-884d-3bd1c6d4224b",
+          "ee4c313d-3ad4-4258-b61b-447d8f98f7e2"
         ]
       }
     ]
@@ -600,21 +600,21 @@
         "end": "2027-01-31",
         "vertical": 1,
         "ids": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "b20f9bec-e1d1-48de-8a6d-97c4601856aa",
-          "f9d05f92-c689-4f58-b08e-d279d0899869",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa",
-          "2df7809c-57b4-4638-9c46-19d192ee1bab",
-          "1bf9b9c2-8a04-4f91-9869-d5a00af5756f",
-          "01cfd0b8-ca2d-4d69-9c2b-33fdb58c5299",
-          "c9c5ef93-f3e4-402c-a5ee-51dccfed9232",
-          "71a59bd0-9615-4b23-85be-b2d4d1adf53a",
-          "9cdb0eea-504b-4fdf-9905-5c1b747b885e",
-          "63401af4-c89b-4467-b93d-1f37971fcf50",
-          "d4711e0c-addb-47fb-8676-3f9f9ee729d6",
-          "d3019834-e784-4586-a5cc-7b3a4afaa3eb",
-          "477ba9d0-5b2f-4c2a-b9f2-c9326ebe43d2",
-          "af9c0d34-2618-4eb3-aa20-2631aa2a1939"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "67513c8a-48c2-4bd5-99a0-cd83c2549784",
+          "91e0739a-53ea-41db-b8ed-6f1c5837786d",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9",
+          "66f44809-a436-4299-8a95-7f577b3b2239",
+          "1e356630-a49d-413c-8247-6ae3b7393b88",
+          "81020b81-f429-43ff-8b4d-ca916f496755",
+          "89696741-4597-4e9b-8e4f-76e2b2da52b7",
+          "f3c43308-fee9-4559-95ee-cc1ed55f67ab",
+          "21096d5b-980c-4448-bdec-8725a9a843e8",
+          "896b9c58-8baf-418e-a4cf-65d663edd644",
+          "be260957-00c1-480d-bb1d-f73e27cd61b7",
+          "21bd0915-b9ff-4aa3-953c-d600a86c0580",
+          "096b54c2-869c-49da-910f-a1b45f92375b",
+          "e16a8d93-b0ee-43f0-b834-b4b3ead029bb"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -630,23 +630,23 @@
         "end": "2027-01-31",
         "vertical": 2,
         "ids": [
-          "ce28ef86-ca0e-4b94-8293-7420ce91ddb0",
-          "305ccfb4-ebc7-4336-8bf9-bf95721c32d1",
-          "7549e040-a4bd-406d-81c2-f75c3fc9a419",
-          "cf2c0a53-314e-4c2f-a2cc-99617cbd1163",
-          "4b695801-0abe-41c5-a1b3-7640fb5d1538",
-          "3b6a5f6a-80a4-4425-8a05-d06c0193c021",
-          "c4c0f2b2-a801-4d4c-906b-2b6fde2c3bcb",
-          "425e070f-8087-4067-a0b4-949beaa5bba9",
-          "584c6f6a-f105-4681-8e7f-05742f403791",
-          "dd0c7e32-25ff-4ce9-956e-82a94494204e",
-          "4a529560-adee-47a0-88aa-cc2414a2c757",
-          "7e08b102-6b63-4f53-b3b9-34258a6bea6a",
-          "218ee654-81d2-4a38-b46e-5328cb701e37"
+          "d345b18a-6e78-40ec-bd99-0ab94e1ef34f",
+          "47f940c8-3a7e-4760-a779-a2c1dae2e75a",
+          "fb635281-b290-4124-abe5-e843ea343b28",
+          "0318e496-9879-466b-a337-63ffb0a1dae9",
+          "960cb9e4-f9d1-43f9-9b8d-f6c4cd836e00",
+          "15f4b3e7-b928-4889-9a6c-35400b750834",
+          "00b87b24-ce7f-420a-9d6e-117473d39b2d",
+          "18cb0dfa-89f9-4075-940e-81534b6f128f",
+          "e8fc39d9-da58-4530-87b6-8a3b272ca0e5",
+          "14ab415d-1205-45c8-b77b-e4e33910027c",
+          "64889255-0e9f-479b-bc70-73e326e9d39c",
+          "087ea082-f53d-434b-b700-25d60d86029f",
+          "1c309232-c106-4324-b1a8-64462386ad74"
         ],
         "repeated": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -661,9 +661,9 @@
         "end": "2027-01-31",
         "vertical": 3,
         "ids": [
-          "604474b6-f0f9-4949-96df-30f4583cd927",
-          "22964ae4-47b7-464f-9489-081e22cdfaa0",
-          "eabef2fd-f1f7-4765-bf16-0ae72d711f87"
+          "9ca15fbc-2e1b-49d5-aeca-eb1ad0b88f0a",
+          "1f769390-3734-49d8-9774-8d12939044e0",
+          "02234cf6-597e-4986-bbaf-79ea9a2607a3"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -679,20 +679,20 @@
         "end": "2027-04-26",
         "vertical": 1,
         "ids": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "b20f9bec-e1d1-48de-8a6d-97c4601856aa",
-          "f9d05f92-c689-4f58-b08e-d279d0899869",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa",
-          "2df7809c-57b4-4638-9c46-19d192ee1bab",
-          "1bf9b9c2-8a04-4f91-9869-d5a00af5756f",
-          "01cfd0b8-ca2d-4d69-9c2b-33fdb58c5299",
-          "c9c5ef93-f3e4-402c-a5ee-51dccfed9232",
-          "71a59bd0-9615-4b23-85be-b2d4d1adf53a",
-          "9cdb0eea-504b-4fdf-9905-5c1b747b885e",
-          "63401af4-c89b-4467-b93d-1f37971fcf50",
-          "d4711e0c-addb-47fb-8676-3f9f9ee729d6",
-          "d3019834-e784-4586-a5cc-7b3a4afaa3eb",
-          "477ba9d0-5b2f-4c2a-b9f2-c9326ebe43d2"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "67513c8a-48c2-4bd5-99a0-cd83c2549784",
+          "91e0739a-53ea-41db-b8ed-6f1c5837786d",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9",
+          "66f44809-a436-4299-8a95-7f577b3b2239",
+          "1e356630-a49d-413c-8247-6ae3b7393b88",
+          "81020b81-f429-43ff-8b4d-ca916f496755",
+          "89696741-4597-4e9b-8e4f-76e2b2da52b7",
+          "f3c43308-fee9-4559-95ee-cc1ed55f67ab",
+          "21096d5b-980c-4448-bdec-8725a9a843e8",
+          "896b9c58-8baf-418e-a4cf-65d663edd644",
+          "be260957-00c1-480d-bb1d-f73e27cd61b7",
+          "21bd0915-b9ff-4aa3-953c-d600a86c0580",
+          "096b54c2-869c-49da-910f-a1b45f92375b"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -708,23 +708,23 @@
         "end": "2027-04-26",
         "vertical": 2,
         "ids": [
-          "af9c0d34-2618-4eb3-aa20-2631aa2a1939",
-          "ce28ef86-ca0e-4b94-8293-7420ce91ddb0",
-          "305ccfb4-ebc7-4336-8bf9-bf95721c32d1",
-          "7549e040-a4bd-406d-81c2-f75c3fc9a419",
-          "cf2c0a53-314e-4c2f-a2cc-99617cbd1163",
-          "4b695801-0abe-41c5-a1b3-7640fb5d1538",
-          "3b6a5f6a-80a4-4425-8a05-d06c0193c021",
-          "c4c0f2b2-a801-4d4c-906b-2b6fde2c3bcb",
-          "425e070f-8087-4067-a0b4-949beaa5bba9",
-          "584c6f6a-f105-4681-8e7f-05742f403791",
-          "dd0c7e32-25ff-4ce9-956e-82a94494204e",
-          "4a529560-adee-47a0-88aa-cc2414a2c757",
-          "7e08b102-6b63-4f53-b3b9-34258a6bea6a"
+          "e16a8d93-b0ee-43f0-b834-b4b3ead029bb",
+          "d345b18a-6e78-40ec-bd99-0ab94e1ef34f",
+          "47f940c8-3a7e-4760-a779-a2c1dae2e75a",
+          "fb635281-b290-4124-abe5-e843ea343b28",
+          "0318e496-9879-466b-a337-63ffb0a1dae9",
+          "960cb9e4-f9d1-43f9-9b8d-f6c4cd836e00",
+          "15f4b3e7-b928-4889-9a6c-35400b750834",
+          "00b87b24-ce7f-420a-9d6e-117473d39b2d",
+          "18cb0dfa-89f9-4075-940e-81534b6f128f",
+          "e8fc39d9-da58-4530-87b6-8a3b272ca0e5",
+          "14ab415d-1205-45c8-b77b-e4e33910027c",
+          "64889255-0e9f-479b-bc70-73e326e9d39c",
+          "087ea082-f53d-434b-b700-25d60d86029f"
         ],
         "repeated": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -739,14 +739,14 @@
         "end": "2027-04-26",
         "vertical": 3,
         "ids": [
-          "218ee654-81d2-4a38-b46e-5328cb701e37",
-          "604474b6-f0f9-4949-96df-30f4583cd927",
-          "22964ae4-47b7-464f-9489-081e22cdfaa0",
-          "eabef2fd-f1f7-4765-bf16-0ae72d711f87"
+          "1c309232-c106-4324-b1a8-64462386ad74",
+          "9ca15fbc-2e1b-49d5-aeca-eb1ad0b88f0a",
+          "1f769390-3734-49d8-9774-8d12939044e0",
+          "02234cf6-597e-4986-bbaf-79ea9a2607a3"
         ],
         "repeated": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -760,273 +760,273 @@
     "sourceRows": 31,
     "rows": [
       {
-        "id": "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
+        "id": "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "b20f9bec-e1d1-48de-8a6d-97c4601856aa",
+        "id": "67513c8a-48c2-4bd5-99a0-cd83c2549784",
         "name": "Архивный этап",
         "archived": true,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86"
         ]
       },
       {
-        "id": "f9d05f92-c689-4f58-b08e-d279d0899869",
+        "id": "91e0739a-53ea-41db-b8ed-6f1c5837786d",
         "name": "Архивная работа",
         "archived": true,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "b20f9bec-e1d1-48de-8a6d-97c4601856aa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "67513c8a-48c2-4bd5-99a0-cd83c2549784"
         ]
       },
       {
-        "id": "ed1b73f1-0208-4838-874c-21bd4ed660fa",
+        "id": "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86"
         ]
       },
       {
-        "id": "2df7809c-57b4-4638-9c46-19d192ee1bab",
+        "id": "66f44809-a436-4299-8a95-7f577b3b2239",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "1bf9b9c2-8a04-4f91-9869-d5a00af5756f",
+        "id": "1e356630-a49d-413c-8247-6ae3b7393b88",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "01cfd0b8-ca2d-4d69-9c2b-33fdb58c5299",
+        "id": "81020b81-f429-43ff-8b4d-ca916f496755",
         "name": "Работа 003",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "c9c5ef93-f3e4-402c-a5ee-51dccfed9232",
+        "id": "89696741-4597-4e9b-8e4f-76e2b2da52b7",
         "name": "Работа 004",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "71a59bd0-9615-4b23-85be-b2d4d1adf53a",
+        "id": "f3c43308-fee9-4559-95ee-cc1ed55f67ab",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "9cdb0eea-504b-4fdf-9905-5c1b747b885e",
+        "id": "21096d5b-980c-4448-bdec-8725a9a843e8",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "63401af4-c89b-4467-b93d-1f37971fcf50",
+        "id": "896b9c58-8baf-418e-a4cf-65d663edd644",
         "name": "Работа 007",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "d4711e0c-addb-47fb-8676-3f9f9ee729d6",
+        "id": "be260957-00c1-480d-bb1d-f73e27cd61b7",
         "name": "Работа 008",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "d3019834-e784-4586-a5cc-7b3a4afaa3eb",
+        "id": "21bd0915-b9ff-4aa3-953c-d600a86c0580",
         "name": "Работа 009",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "477ba9d0-5b2f-4c2a-b9f2-c9326ebe43d2",
+        "id": "096b54c2-869c-49da-910f-a1b45f92375b",
         "name": "Работа 010",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "af9c0d34-2618-4eb3-aa20-2631aa2a1939",
+        "id": "e16a8d93-b0ee-43f0-b834-b4b3ead029bb",
         "name": "Работа 011",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "ce28ef86-ca0e-4b94-8293-7420ce91ddb0",
+        "id": "d345b18a-6e78-40ec-bd99-0ab94e1ef34f",
         "name": "Работа 012",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "305ccfb4-ebc7-4336-8bf9-bf95721c32d1",
+        "id": "47f940c8-3a7e-4760-a779-a2c1dae2e75a",
         "name": "Работа 013",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "7549e040-a4bd-406d-81c2-f75c3fc9a419",
+        "id": "fb635281-b290-4124-abe5-e843ea343b28",
         "name": "Работа 014",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "cf2c0a53-314e-4c2f-a2cc-99617cbd1163",
+        "id": "0318e496-9879-466b-a337-63ffb0a1dae9",
         "name": "Работа 015",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "4b695801-0abe-41c5-a1b3-7640fb5d1538",
+        "id": "960cb9e4-f9d1-43f9-9b8d-f6c4cd836e00",
         "name": "Работа 016",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "3b6a5f6a-80a4-4425-8a05-d06c0193c021",
+        "id": "15f4b3e7-b928-4889-9a6c-35400b750834",
         "name": "Работа 017",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "c4c0f2b2-a801-4d4c-906b-2b6fde2c3bcb",
+        "id": "00b87b24-ce7f-420a-9d6e-117473d39b2d",
         "name": "Работа 018",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "425e070f-8087-4067-a0b4-949beaa5bba9",
+        "id": "18cb0dfa-89f9-4075-940e-81534b6f128f",
         "name": "Работа 019",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "584c6f6a-f105-4681-8e7f-05742f403791",
+        "id": "e8fc39d9-da58-4530-87b6-8a3b272ca0e5",
         "name": "Работа 020",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "dd0c7e32-25ff-4ce9-956e-82a94494204e",
+        "id": "14ab415d-1205-45c8-b77b-e4e33910027c",
         "name": "Работа 021",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "4a529560-adee-47a0-88aa-cc2414a2c757",
+        "id": "64889255-0e9f-479b-bc70-73e326e9d39c",
         "name": "Работа 022",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "7e08b102-6b63-4f53-b3b9-34258a6bea6a",
+        "id": "087ea082-f53d-434b-b700-25d60d86029f",
         "name": "Работа 023",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "218ee654-81d2-4a38-b46e-5328cb701e37",
+        "id": "1c309232-c106-4324-b1a8-64462386ad74",
         "name": "Работа 024",
         "archived": false,
         "parentIds": [
-          "749a4e24-94fe-4e94-ba67-a8d0e134cbae",
-          "ed1b73f1-0208-4838-874c-21bd4ed660fa"
+          "5fd3ca29-1d4c-4345-a0d3-d27cb545bc86",
+          "9d934ee8-97c7-4cdf-9ea8-434f1dae3ca9"
         ]
       },
       {
-        "id": "604474b6-f0f9-4949-96df-30f4583cd927",
+        "id": "9ca15fbc-2e1b-49d5-aeca-eb1ad0b88f0a",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "22964ae4-47b7-464f-9489-081e22cdfaa0",
+        "id": "1f769390-3734-49d8-9774-8d12939044e0",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "604474b6-f0f9-4949-96df-30f4583cd927"
+          "9ca15fbc-2e1b-49d5-aeca-eb1ad0b88f0a"
         ]
       },
       {
-        "id": "eabef2fd-f1f7-4765-bf16-0ae72d711f87",
+        "id": "02234cf6-597e-4986-bbaf-79ea9a2607a3",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "604474b6-f0f9-4949-96df-30f4583cd927",
-          "22964ae4-47b7-464f-9489-081e22cdfaa0"
+          "9ca15fbc-2e1b-49d5-aeca-eb1ad0b88f0a",
+          "1f769390-3734-49d8-9774-8d12939044e0"
         ]
       }
     ]
@@ -1040,20 +1040,20 @@
         "end": "2027-10-31",
         "vertical": 1,
         "ids": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "94a103b7-457a-4e05-b449-261a44289b20",
-          "208598f3-ac55-459c-ab2d-953e2d52cc92",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795",
-          "3a383c06-e009-481c-97b0-64293f3dd397",
-          "7206814b-99b1-4270-83e6-a33f69da9dc7",
-          "11f2a0ec-b652-4736-836f-53881d210524",
-          "46dfd944-5354-4a72-89d9-1e9acd216f51",
-          "91980ade-b33f-4ed6-bedc-69c7891d9fb3",
-          "de048d35-fe58-403d-a94e-031781c7720d",
-          "c940e990-80ab-4885-86d6-7ff4d2c6ab1d",
-          "f26de98c-db56-4d73-9f65-1a940abc882e",
-          "8a17834f-2ce1-4159-bb5a-2dea6e06e43d",
-          "41247e73-1ed7-4d06-9338-72b43ef5caf2"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "1a38c055-2dfb-4bef-8854-070b13338274",
+          "46c9b286-a286-4d5e-aa2a-806320800ac4",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13",
+          "e4531cb1-34c0-43fa-871e-b82865edd6a3",
+          "909949ea-766c-443c-88b8-ab55052f8a9f",
+          "43ba5dad-37b1-4955-bf63-5244ee1fea8f",
+          "c7a2d167-47e5-498f-ac91-91c9d6f7cf5f",
+          "3df8403c-20b2-44ca-a159-259354b94ca6",
+          "ee03f026-efb2-46a1-8c51-e264e0077d5a",
+          "57890ad1-a4ca-4943-8a0f-bb36b1003f4f",
+          "9cb9505f-de7f-4640-9d7a-9af670bf6466",
+          "96f76c76-3250-4314-bc0e-590b94bba75d",
+          "94bdf81f-476e-4a3a-8a1b-ec18c95160cd"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -1069,23 +1069,23 @@
         "end": "2027-10-31",
         "vertical": 2,
         "ids": [
-          "5a1f9768-21ac-4580-bc41-a778ae53b512",
-          "779759cc-27b5-442b-b878-ed1d2079a585",
-          "33182178-7226-4b57-9943-b158df9b3090",
-          "5ef0cea6-7d76-4a72-b2eb-c4b2905cfedb",
-          "75e182a0-b084-4d18-b263-4bc0ce34813e",
-          "7adacf32-91cb-4883-a34e-489b5befc8fa",
-          "710a1062-a852-498f-a7c5-6bb9536eeef0",
-          "e53bd6f1-4bb4-4cda-b608-525a05713eb3",
-          "17456019-9f50-4a65-a0b1-62be38715af5",
-          "df5586f6-323a-4e77-afad-243bda9a7667",
-          "298aaf75-984c-4792-9ece-5a1d6495e2e9",
-          "5a856f20-88f9-4285-bac1-5f92fa7663ea",
-          "9fae1494-6b8b-4ff2-91a8-54e8eb055a37"
+          "aec02ef6-48bc-4495-9bc5-26b41564915c",
+          "ad46f08d-2a86-43d1-95df-e5690d851094",
+          "11ff639b-42ac-417d-8e63-3145d6558fe6",
+          "60b07bad-8d73-43e6-8774-d2e35bdf3d16",
+          "0babbf6a-1901-45e7-9c6b-15db56c078bc",
+          "db7b0fd9-f316-4a56-b3fb-4c086268313f",
+          "69cc9e24-800d-4271-b416-d84564c94fab",
+          "3164d65b-14a4-41cb-bb6d-956cc1dd78cc",
+          "74b27aae-18b6-47fd-a346-63287ddc556a",
+          "934efd26-66d5-4222-98ea-719d39bb4ad1",
+          "de56638f-764a-4e28-87f1-0ec2ca5035bd",
+          "d72a2462-60ab-4bd9-8b7d-97baa41a066f",
+          "20ce38fa-9a40-4258-9d72-a97db85921b6"
         ],
         "repeated": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -1100,14 +1100,14 @@
         "end": "2027-10-31",
         "vertical": 3,
         "ids": [
-          "f685b1c7-910b-43dc-b55c-4db68d79a957",
-          "99e9e207-b414-4722-8629-c5d7c11dc769",
-          "ce4f25d0-b7e9-48bc-a12a-481323686029",
-          "e28b761b-d18f-4aaf-a32e-f4d95ca7a4ee"
+          "4be8def3-66dc-4eea-9294-874ff59cc720",
+          "93b312d6-f93c-4824-bed0-37b0b890c4ee",
+          "972ddc16-de6c-4112-aa03-41e0173abc42",
+          "971065e6-0209-42f0-8145-4051c6f8af6f"
         ],
         "repeated": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -1122,21 +1122,21 @@
         "end": "2028-01-10",
         "vertical": 1,
         "ids": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "94a103b7-457a-4e05-b449-261a44289b20",
-          "208598f3-ac55-459c-ab2d-953e2d52cc92",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795",
-          "3a383c06-e009-481c-97b0-64293f3dd397",
-          "7206814b-99b1-4270-83e6-a33f69da9dc7",
-          "11f2a0ec-b652-4736-836f-53881d210524",
-          "46dfd944-5354-4a72-89d9-1e9acd216f51",
-          "91980ade-b33f-4ed6-bedc-69c7891d9fb3",
-          "de048d35-fe58-403d-a94e-031781c7720d",
-          "c940e990-80ab-4885-86d6-7ff4d2c6ab1d",
-          "f26de98c-db56-4d73-9f65-1a940abc882e",
-          "8a17834f-2ce1-4159-bb5a-2dea6e06e43d",
-          "41247e73-1ed7-4d06-9338-72b43ef5caf2",
-          "5a1f9768-21ac-4580-bc41-a778ae53b512"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "1a38c055-2dfb-4bef-8854-070b13338274",
+          "46c9b286-a286-4d5e-aa2a-806320800ac4",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13",
+          "e4531cb1-34c0-43fa-871e-b82865edd6a3",
+          "909949ea-766c-443c-88b8-ab55052f8a9f",
+          "43ba5dad-37b1-4955-bf63-5244ee1fea8f",
+          "c7a2d167-47e5-498f-ac91-91c9d6f7cf5f",
+          "3df8403c-20b2-44ca-a159-259354b94ca6",
+          "ee03f026-efb2-46a1-8c51-e264e0077d5a",
+          "57890ad1-a4ca-4943-8a0f-bb36b1003f4f",
+          "9cb9505f-de7f-4640-9d7a-9af670bf6466",
+          "96f76c76-3250-4314-bc0e-590b94bba75d",
+          "94bdf81f-476e-4a3a-8a1b-ec18c95160cd",
+          "aec02ef6-48bc-4495-9bc5-26b41564915c"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -1152,23 +1152,23 @@
         "end": "2028-01-10",
         "vertical": 2,
         "ids": [
-          "779759cc-27b5-442b-b878-ed1d2079a585",
-          "33182178-7226-4b57-9943-b158df9b3090",
-          "5ef0cea6-7d76-4a72-b2eb-c4b2905cfedb",
-          "75e182a0-b084-4d18-b263-4bc0ce34813e",
-          "7adacf32-91cb-4883-a34e-489b5befc8fa",
-          "710a1062-a852-498f-a7c5-6bb9536eeef0",
-          "e53bd6f1-4bb4-4cda-b608-525a05713eb3",
-          "17456019-9f50-4a65-a0b1-62be38715af5",
-          "df5586f6-323a-4e77-afad-243bda9a7667",
-          "298aaf75-984c-4792-9ece-5a1d6495e2e9",
-          "5a856f20-88f9-4285-bac1-5f92fa7663ea",
-          "9fae1494-6b8b-4ff2-91a8-54e8eb055a37",
-          "f685b1c7-910b-43dc-b55c-4db68d79a957"
+          "ad46f08d-2a86-43d1-95df-e5690d851094",
+          "11ff639b-42ac-417d-8e63-3145d6558fe6",
+          "60b07bad-8d73-43e6-8774-d2e35bdf3d16",
+          "0babbf6a-1901-45e7-9c6b-15db56c078bc",
+          "db7b0fd9-f316-4a56-b3fb-4c086268313f",
+          "69cc9e24-800d-4271-b416-d84564c94fab",
+          "3164d65b-14a4-41cb-bb6d-956cc1dd78cc",
+          "74b27aae-18b6-47fd-a346-63287ddc556a",
+          "934efd26-66d5-4222-98ea-719d39bb4ad1",
+          "de56638f-764a-4e28-87f1-0ec2ca5035bd",
+          "d72a2462-60ab-4bd9-8b7d-97baa41a066f",
+          "20ce38fa-9a40-4258-9d72-a97db85921b6",
+          "4be8def3-66dc-4eea-9294-874ff59cc720"
         ],
         "repeated": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ],
         "width": 1511.796875,
         "height": 1043.140625,
@@ -1183,9 +1183,9 @@
         "end": "2028-01-10",
         "vertical": 3,
         "ids": [
-          "99e9e207-b414-4722-8629-c5d7c11dc769",
-          "ce4f25d0-b7e9-48bc-a12a-481323686029",
-          "e28b761b-d18f-4aaf-a32e-f4d95ca7a4ee"
+          "93b312d6-f93c-4824-bed0-37b0b890c4ee",
+          "972ddc16-de6c-4112-aa03-41e0173abc42",
+          "971065e6-0209-42f0-8145-4051c6f8af6f"
         ],
         "repeated": [],
         "width": 1511.796875,
@@ -1200,273 +1200,273 @@
     "sourceRows": 31,
     "rows": [
       {
-        "id": "415d9b22-8498-405a-9cfa-c2c91b0b545a",
+        "id": "855313b7-071b-45ab-9182-7f2ee63b6652",
         "name": "Сосны — корпус А",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "94a103b7-457a-4e05-b449-261a44289b20",
+        "id": "1a38c055-2dfb-4bef-8854-070b13338274",
         "name": "Архивный этап",
         "archived": true,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a"
+          "855313b7-071b-45ab-9182-7f2ee63b6652"
         ]
       },
       {
-        "id": "208598f3-ac55-459c-ab2d-953e2d52cc92",
+        "id": "46c9b286-a286-4d5e-aa2a-806320800ac4",
         "name": "Архивная работа",
         "archived": true,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "94a103b7-457a-4e05-b449-261a44289b20"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "1a38c055-2dfb-4bef-8854-070b13338274"
         ]
       },
       {
-        "id": "998bcc7a-fc54-4f13-b7f8-0f5158fd9795",
+        "id": "bc6e682b-d5dc-47d7-a804-5c103f5d0f13",
         "name": "Подготовка и фундамент",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a"
+          "855313b7-071b-45ab-9182-7f2ee63b6652"
         ]
       },
       {
-        "id": "3a383c06-e009-481c-97b0-64293f3dd397",
+        "id": "e4531cb1-34c0-43fa-871e-b82865edd6a3",
         "name": "Работа за сроками родителя",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "7206814b-99b1-4270-83e6-a33f69da9dc7",
+        "id": "909949ea-766c-443c-88b8-ab55052f8a9f",
         "name": "Длинное русское название: устройство монолитного железобетонного перекрытия с подготовкой опалубки и армированием",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "11f2a0ec-b652-4736-836f-53881d210524",
+        "id": "43ba5dad-37b1-4955-bf63-5244ee1fea8f",
         "name": "Работа 003",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "46dfd944-5354-4a72-89d9-1e9acd216f51",
+        "id": "c7a2d167-47e5-498f-ac91-91c9d6f7cf5f",
         "name": "Работа 004",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "91980ade-b33f-4ed6-bedc-69c7891d9fb3",
+        "id": "3df8403c-20b2-44ca-a159-259354b94ca6",
         "name": "Работа 005",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "de048d35-fe58-403d-a94e-031781c7720d",
+        "id": "ee03f026-efb2-46a1-8c51-e264e0077d5a",
         "name": "Работа 006",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "c940e990-80ab-4885-86d6-7ff4d2c6ab1d",
+        "id": "57890ad1-a4ca-4943-8a0f-bb36b1003f4f",
         "name": "Работа 007",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "f26de98c-db56-4d73-9f65-1a940abc882e",
+        "id": "9cb9505f-de7f-4640-9d7a-9af670bf6466",
         "name": "Работа 008",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "8a17834f-2ce1-4159-bb5a-2dea6e06e43d",
+        "id": "96f76c76-3250-4314-bc0e-590b94bba75d",
         "name": "Работа 009",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "41247e73-1ed7-4d06-9338-72b43ef5caf2",
+        "id": "94bdf81f-476e-4a3a-8a1b-ec18c95160cd",
         "name": "Работа 010",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "5a1f9768-21ac-4580-bc41-a778ae53b512",
+        "id": "aec02ef6-48bc-4495-9bc5-26b41564915c",
         "name": "Работа 011",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "779759cc-27b5-442b-b878-ed1d2079a585",
+        "id": "ad46f08d-2a86-43d1-95df-e5690d851094",
         "name": "Работа 012",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "33182178-7226-4b57-9943-b158df9b3090",
+        "id": "11ff639b-42ac-417d-8e63-3145d6558fe6",
         "name": "Работа 013",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "5ef0cea6-7d76-4a72-b2eb-c4b2905cfedb",
+        "id": "60b07bad-8d73-43e6-8774-d2e35bdf3d16",
         "name": "Работа 014",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "75e182a0-b084-4d18-b263-4bc0ce34813e",
+        "id": "0babbf6a-1901-45e7-9c6b-15db56c078bc",
         "name": "Работа 015",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "7adacf32-91cb-4883-a34e-489b5befc8fa",
+        "id": "db7b0fd9-f316-4a56-b3fb-4c086268313f",
         "name": "Работа 016",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "710a1062-a852-498f-a7c5-6bb9536eeef0",
+        "id": "69cc9e24-800d-4271-b416-d84564c94fab",
         "name": "Работа 017",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "e53bd6f1-4bb4-4cda-b608-525a05713eb3",
+        "id": "3164d65b-14a4-41cb-bb6d-956cc1dd78cc",
         "name": "Работа 018",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "17456019-9f50-4a65-a0b1-62be38715af5",
+        "id": "74b27aae-18b6-47fd-a346-63287ddc556a",
         "name": "Работа 019",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "df5586f6-323a-4e77-afad-243bda9a7667",
+        "id": "934efd26-66d5-4222-98ea-719d39bb4ad1",
         "name": "Работа 020",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "298aaf75-984c-4792-9ece-5a1d6495e2e9",
+        "id": "de56638f-764a-4e28-87f1-0ec2ca5035bd",
         "name": "Работа 021",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "5a856f20-88f9-4285-bac1-5f92fa7663ea",
+        "id": "d72a2462-60ab-4bd9-8b7d-97baa41a066f",
         "name": "Работа 022",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "9fae1494-6b8b-4ff2-91a8-54e8eb055a37",
+        "id": "20ce38fa-9a40-4258-9d72-a97db85921b6",
         "name": "Работа 023",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "f685b1c7-910b-43dc-b55c-4db68d79a957",
+        "id": "4be8def3-66dc-4eea-9294-874ff59cc720",
         "name": "Работа 024",
         "archived": false,
         "parentIds": [
-          "415d9b22-8498-405a-9cfa-c2c91b0b545a",
-          "998bcc7a-fc54-4f13-b7f8-0f5158fd9795"
+          "855313b7-071b-45ab-9182-7f2ee63b6652",
+          "bc6e682b-d5dc-47d7-a804-5c103f5d0f13"
         ]
       },
       {
-        "id": "99e9e207-b414-4722-8629-c5d7c11dc769",
+        "id": "93b312d6-f93c-4824-bed0-37b0b890c4ee",
         "name": "Берёзы — корпус Б",
         "archived": false,
         "parentIds": []
       },
       {
-        "id": "ce4f25d0-b7e9-48bc-a12a-481323686029",
+        "id": "972ddc16-de6c-4112-aa03-41e0173abc42",
         "name": "Сети",
         "archived": false,
         "parentIds": [
-          "99e9e207-b414-4722-8629-c5d7c11dc769"
+          "93b312d6-f93c-4824-bed0-37b0b890c4ee"
         ]
       },
       {
-        "id": "e28b761b-d18f-4aaf-a32e-f4d95ca7a4ee",
+        "id": "971065e6-0209-42f0-8145-4051c6f8af6f",
         "name": "Наружные сети",
         "archived": false,
         "parentIds": [
-          "99e9e207-b414-4722-8629-c5d7c11dc769",
-          "ce4f25d0-b7e9-48bc-a12a-481323686029"
+          "93b312d6-f93c-4824-bed0-37b0b890c4ee",
+          "972ddc16-de6c-4112-aa03-41e0173abc42"
         ]
       }
     ]

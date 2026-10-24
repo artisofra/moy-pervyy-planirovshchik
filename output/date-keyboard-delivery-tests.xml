@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="Поставка воспроизводится из исходников: список, версия и каждый хеш совпадают" time="0.723764" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\release.test.js"/>
+	<testcase name="Manifest и PNG-иконки автономны; JSON Schema соответствует проверяемой копии" time="0.030046" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\release.test.js"/>
+	<testcase name="Сервер отдаёт интерфейс и нужный MIME, закрывает документацию, тесты, репозиторий и обход пути" time="0.366554" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\release.test.js"/>
+	<testcase name="Код поставки не содержит внешних скриптов, отправки планов и отладочного вывода данных" time="0.020102" classname="test" file="D:\00ВайбКодинг\планировщик задач\tests\release.test.js"/>
+	<!-- tests 4 -->
+	<!-- suites 0 -->
+	<!-- pass 4 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 7180.6828 -->
+</testsuites>

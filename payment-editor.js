@@ -1,4 +1,4 @@
-import {setupDate,dateValue,setDateValue,rawDateText} from './date-input.js';
+import {setupDate,dateValue,setDateValue,rawDateText,onDateChange} from './date-input.js';
 import * as D from './domain.js';
 
 const KEYS=['name','amountRub','plannedDate','status','paidDate','comment'];
@@ -45,14 +45,15 @@ export function createPaymentEditor(box,{resource,locked,onDirty,onError,onSumma
         input.disabled=locked()||(key==='paidDate'&&f.status!=='paid');if(key==='amountRub')input.inputMode='numeric';
         const label=el('label',TITLES[key]),error=el('span');error.id=errorId;error.className='field-error';label.append(input,error);grid.append(label);
         if(key!=='status')input.addEventListener('input',()=>{touch(pay);f[key]=key.endsWith('Date')?dateValue(input):input.value;onSummary();});
-        input.addEventListener('change',()=>{
+        const changed=()=>{
           if(key==='status'){
             if(input.value==='planned'&&f.status==='paid'&&!confirm('Вернуть в запланированные? Фактическая дата будет очищена.')){input.value=f.status;return;}
             touch(pay);f.status=input.value;f.paidDate=f.status==='paid'?(f.paidDate||D.today()):'';
             const date=row.querySelector('[data-key="paidDate"]');date.disabled=f.status!=='paid';setDateValue(date,f.paidDate);
           }else{touch(pay);f[key]=key.endsWith('Date')?dateValue(input):input.value;}
           try{Object.assign(pay,parsed(pay));error.textContent='';input.removeAttribute('aria-invalid');onSummary();}catch(e){onError(e);}
-        });
+        };
+        if(key.endsWith('Date'))onDateChange(input,changed);else input.addEventListener('change',changed);
       }
       row.append(grid);
       if(!locked()){

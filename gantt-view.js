@@ -1,4 +1,4 @@
-import {setupDate,dateValue,setDateValue} from './date-input.js';
+import {setupDate,dateValue,setDateValue,onDateChange} from './date-input.js';
 import * as D from './domain.js';
 import {periods} from './finance.js';
 import {SCALES,defaultGanttFilters,buildGantt,barGeometry,dayNumber} from './gantt.js';
@@ -20,7 +20,7 @@ export function createGanttView(openEntity,guardForm){
     const ids=filters.projectIds===null?projects.map(p=>p.id):filters.projectIds;
     choices.append(choiceGroup('Объекты',projects.filter(p=>filters.includeArchive||!p.archivedAt).map(p=>[p.id,p.name+(p.archivedAt?' · архив':'')]),ids,(id,on)=>{filters.projectIds=on?[...new Set([...ids,id])]:ids.filter(x=>x!==id);}),choiceGroup('Статусы работ',Object.entries(D.WORK_STATUS),filters.statusIds,(id,on)=>{filters.statusIds=on?[...filters.statusIds,id]:filters.statusIds.filter(x=>x!==id);}));target.append(choices);
     const tools=el('div',null,'toolbar gantt-filters'),scale=el('select');for(const[k,v]of Object.entries(SCALES)){const o=el('option',v);o.value=k;scale.append(o);}scale.value=filters.scale;scale.onchange=()=>{filters.scale=scale.value;changed();};tools.append(label('Масштаб Ганта',scale));
-    for(const[key,title]of [['start','Гант: с даты'],['end','Гант: по дату']]){const input=el('input');setupDate(input);setDateValue(input,filters[key]);input.onchange=()=>{filters[key]=dateValue(input);changed();};tools.append(label(title,input));}
+    for(const[key,title]of [['start','Гант: с даты'],['end','Гант: по дату']]){const input=el('input');setupDate(input);setDateValue(input,filters[key]);onDateChange(input,()=>{filters[key]=dateValue(input);changed();},{draft:()=>{filters[key]=dateValue(input);}});tools.append(label(title,input));}
     const period=el('input');period.type='checkbox';period.checked=filters.onlyPeriod;period.onchange=()=>{filters.onlyPeriod=period.checked;changed();};const pl=label('Только работы выбранного периода',period);pl.className='check';tools.append(pl);
     const detail=el('select');for(const[k,v]of Object.entries({full:'Подробно — с работами',brief:'Кратко — объекты и этапы'})){const o=el('option',v);o.value=k;detail.append(o);}detail.value=filters.detail;detail.onchange=()=>{filters.detail=detail.value;changed();};tools.append(label('Детализация Ганта',detail),button('Без завершённых',()=>{filters.statusIds=filters.statusIds.filter(s=>s!=='completed');changed();}));
     const archive=el('input');archive.type='checkbox';archive.checked=filters.includeArchive;archive.onchange=()=>{filters.includeArchive=archive.checked;changed();};const al=label('Включить архив',archive);al.className='check';tools.append(al,button('Сроки выбранных объектов',()=>{filters.start='';filters.end='';changed();}),button('Сбросить фильтры',()=>{filters=defaultGanttFilters();collapsed.clear();changed();}));target.append(tools);

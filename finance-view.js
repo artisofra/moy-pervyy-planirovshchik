@@ -1,4 +1,4 @@
-import {setupDate,dateValue,setDateValue,dateCaption} from './date-input.js';
+import {setupDate,dateValue,setDateValue,dateCaption,onDateChange} from './date-input.js';
 import * as D from './domain.js';
 import { defaultFinanceFilters, financeModel, detailPayments } from './finance.js';
 
@@ -69,7 +69,7 @@ export function createFinanceView(openResource) {
     const bar = el('div', undefined, 'toolbar finance-filters');
     for (const [key, title] of [['start', 'Период с'], ['end', 'Период по']]) {
       const input = el('input'); setupDate(input); setDateValue(input, filters[key]);
-      input.onchange = () => set(key, dateValue(input)); bar.append(field(title, input));
+      onDateChange(input, () => set(key, dateValue(input)), {draft:()=>{filters[key]=dateValue(input);}}); bar.append(field(title, input));
     }
     bar.append(field('Масштаб', options({ days: 'Дни', weeks: 'Недели', months: 'Месяцы' }, filters.scale, v => set('scale', v))),
       field('Группировка', options({ projects: 'По объектам', categories: 'По категориям' }, filters.group, v => set('group', v))));
